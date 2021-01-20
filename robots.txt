@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /lib
+Disallow: /data
+Disallow: /raw
+Disallow: /oauth2
+Disallow: /cgi-bin

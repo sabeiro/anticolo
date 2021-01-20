@@ -1,0 +1,190 @@
+{
+    "Name": "Customer Overview",
+    "Desc": "Data room for sky",
+    "Sector": "NlLh",
+    "Market": {"DE":1,"US":1,"UK":1,"IT":100,"FR":1,"ES":1,"CN":1,"RU":1,"PL":1,"AT":1,"CH":1,"JP":1,"IN":1,"CA":1,"SE":1,"NL":1,"NO":1,"FI":1,"DK":1},
+    "Parameter":[
+	{"name":"Call month","val":"40M","ref":"dotandad","ico":"ion-bag","link":"inventory.php"}
+	,{"name":"viewability","val":"65%","ref":"ComScore","ico":"ion-stats-bars","link":"viewability.php"}
+	,{"name":"impressario","val":"3M4 €","ref":"dotandad","ico":"ion-person-add","link":"impressario.php"}
+	,{"name":"tassonomia","val":"5k5 url","ref":"ComScore","ico":"ion-pie-graph","link":"sunburst.php"}
+	,{"name":"postvalutazioni","val":"9","ref":"Nielsen","ico":"ion-pie-graph","link":"fig/inTargetHeatBench.svg"}
+	,{"name":"campagne dato","val":"3%","ref":"dotandad","ico":"ion-pie-graph","link":"fig/audienceUsage.svg"}
+	,{"name":"offerta audience","val":150,"ref":"bluekai","ico":"ion-pie-graph","link":"fig/audComp.svg"}
+	,{"name":"storico cliente","val":150,"ref":"dotandsale/salesforce","ico":"ion-pie-graph","link":"price.php"}
+	,{"name":"struttura azienda","val":"213","ref":"persone","ico":"ion-stats-bars","link":"circle_pack.php"}
+	,{"name":"dashboard","val":"59312","ref":"clienti","ico":"ion-stats-bars","link":"dashboard_redirect.php"}
+	,{"name":"sorgenti","val":"100+","ref":"github","ico":"ion-stats-bars","link":"https://github.com/sabeiro/intertino"}
+	
+    ]
+    ,"MorrisArea":{
+	"element":"revenue-chart"
+	,"resize":true
+	,"data":[{ "y":"16-01","item1":5.3258679,"item2":0.00000000}
+		 ,{"y":"16-02","item1":6.7980865,"item2":0.00000000}
+		 ,{"y":"16-03","item1":7.0574216,"item2":0.00000000}
+		 ,{"y":"16-04","item1":6.6348931,"item2":0.00000000}
+		 ,{"y":"16-05","item1":7.2537941,"item2":0.00000000}
+		 ,{"y":"16-06","item1":6.8707402,"item2":0.00000000}
+		 ,{"y":"16-07","item1":5.8902224,"item2":0.00000000}
+		 ,{"y":"16-08","item1":3.1689730,"item2":0.00000000}
+		 ,{"y":"16-09","item1":5.9044400,"item2":0.00693014}
+		 ,{"y":"16-10","item1":8.6806528,"item2":0.01877720}
+		 ,{"y":"16-11","item1":8.7534596,"item2":0.05846814}
+		 ,{"y":"16-12","item1":9.7329864,"item2":0.03134819}
+		 ,{"y":"17-01","item1":3.3768521,"item2":0.00982529}
+		 ,{"y":"17-02","item1":3.6704082,"item2":0.01215059}
+		 ,{"y":"17-03","item1":4.7539307,"item2":0.06863638}
+		 ,{"y":"17-04","item1":4.8267517,"item2":0.02242119}
+		 ,{"y":"17-05","item1":5.8339496,"item2":0.02361106}
+		 ,{"y":"17-06","item1":8.9093013,"item2":0.00177696}
+		 ,{"y":"17-07","item1":2.8534187,"item2":0.00071496}
+		 ,{"y":"17-08","item1":1.5726542,"item2":0.00035748}
+		 ,{"y":"17-09","item1":2.2480135,"item2":0.00035748}
+		 ,{"y":"17-10","item1":0.7257318,"item2":0.00141948}
+		 ,{"y":"17-11","item1":0.2770570,"item2":0.00159534}
+		 ,{"y":"17-12","item1":0.1303714,"item2":0.00064874}
+		]
+	,"xkey":"y"
+	,"ykeys":["item1","item2"]
+	,"labels":["imps tot [G]","imps target [M]"]
+	,"lineColors":["#a0d0e0","#3c8dbc"]
+	,"hideHover":"auto"
+    }
+    ,"MorrisLine":{
+	"element":"line-chart"
+	,"resize":true
+	,"data":[ {"y":"16-01","item1":5.3258679,"item2": 0.000000}
+		 ,{"y":"16-02","item1":6.7980865,"item2": 0.000000}
+		 ,{"y":"16-03","item1":7.0574216,"item2": 0.000000}
+		 ,{"y":"16-04","item1":6.6348931,"item2": 0.000000}
+		 ,{"y":"16-05","item1":7.2537941,"item2": 0.000000}
+		 ,{"y":"16-06","item1":6.8707402,"item2": 0.000000}
+		 ,{"y":"16-07","item1":5.8902224,"item2": 0.000000}
+		 ,{"y":"16-08","item1":3.1689730,"item2": 0.000000}
+		 ,{"y":"16-09","item1":5.9044400,"item2": 0.545945}
+		 ,{"y":"16-10","item1":8.6806528,"item2": 7.949807}
+		 ,{"y":"16-11","item1":8.7534596,"item2": 4.849179}
+		 ,{"y":"16-12","item1":9.7329864,"item2":12.665617}
+		 ,{"y":"17-01","item1":3.3768521,"item2": 2.117449}
+		 ,{"y":"17-02","item1":3.6704082,"item2": 0.750069}
+		 ,{"y":"17-03","item1":4.7539307,"item2": 7.583115}
+		 ,{"y":"17-04","item1":4.8267517,"item2": 3.119002}
+		 ,{"y":"17-05","item1":5.8339496,"item2": 2.006061}
+		 ,{"y":"17-06","item1":8.9093013,"item2": 0.081341}
+		 ,{"y":"17-07","item1":2.8534187,"item2": 0.167047}
+		 ,{"y":"17-08","item1":1.5726542,"item2": 0.039773}
+		 ,{"y":"17-09","item1":2.2480135,"item2": 0.039774}
+		 ,{"y":"17-10","item1":0.7257318,"item2": 0.041571}
+		 ,{"y":"17-11","item1":0.2770570,"item2": 0.041951}
+		 ,{"y":"17-12","item1":0.1303714,"item2": 0.040303}
+		]
+	,"xkey":"y"
+	,"ykeys":["item1","item2"]
+	,"labels":["rev tot [M]","rev target [k]"]
+	,"lineColors":["#a0d0e0","#3c8dbc"]
+	,"hideHover":"auto"
+	,"lineWidth":2
+	,"gridTextColor": "#fff"
+	,"gridStrokeWidth": 0.4
+	,"pointSize": 4
+	,"pointStrokeColors": ["#efefef"]
+	,"gridLineColor": "#efefef"
+	,"gridTextFamily": "Open Sans"
+	,"gridTextSize": 10
+    }
+    ,"MorrisBar":{
+	"element":"bar-chart"
+	,"resize":true
+	,"barColors": ["#00a65a","#f56954","#4569f4"]
+	,"xkey": "y"
+	,"ykeys": ["a","b","c","d","e","f"]
+	,"data":[ { "y": "16-07","a": 885,"b": 0,"c": 0,"d": 0,"e": 0,"f": 1377031 },{ "y": "16-08","a": 120533,"b": 0,"c": 0,"d": 54310,"e": 0,"f": 0 },{ "y": "16-09","a": 245076,"b": 215270,"c": 0,"d": 791678,"e": 0,"f": 0 },{ "y": "16-10","a": 3127669,"b": 480342,"c": 0,"d": 2003769,"e": 182340,"f": 0 },{ "y": "16-11","a": 4429496,"b": 591106,"c": 0,"d": 845325,"e": 140694,"f": 244591 },{ "y": "16-12","a": 5157768,"b": 349759,"c": 0,"d": 829552,"e": 192217,"f": 2462938 },{ "y": "17-01","a": 811411,"b": 1978458,"c": 0,"d": 2109415,"e": 1049331,"f": 18988 },{ "y": "17-02","a": 1532402,"b": 651991,"c": 0,"d": 274175,"e": 567153,"f": 0 },{ "y": "17-03","a": 11495491,"b": 501501,"c": 954589,"d":2321262 ,"e":383865 ,"f":83677  } ]
+	,"labels": [ "first", "first s/d", "vodafone", "zalando behavioural", "zalando intent", "zalando s/d" ]
+	,"hideHover":"auto"
+    }
+    ,"barChart":{
+	"title":"format values 2016 (dotandsale)",
+	"data":{"labels": ["Halfpage", "Masthead", "Overlayer", "Preroll", "Promobox", "Rectangle", "Exp video","Skin"],
+		"datasets": [
+		    {"label": "cpm 2016","fillColor": "rgba(210, 214, 222, 1)","strokeColor": "rgba(210, 214, 222, 1)","pointColor": "rgba(210, 214, 222, 1)","pointStrokeColor": "#c1c7d1","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(220,220,220,1)","data": [5.48,9.39,13.37,12.54,7.67,1.67,5.80,4.24]}
+		    ,{"label": "imps 2016 [G]","fillColor": "rgba(60,141,188,0.9)","strokeColor": "rgba(60,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(60,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [0.355,0.820,0.046,1.792,0.047,5.527,0.348,1.576]}
+		    ,{"label": "rev 2016 [M]","fillColor": "rgba(200,141,188,0.9)","strokeColor": "rgba(200,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(200,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [1.948,7.707,0.613,22.472,0.360,9.245,2.016,6.677]}
+		    ,{"label": "ctr 2016 [%]","fillColor": "rgba(200,141,188,0.9)","strokeColor": "rgba(200,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(200,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [0,7.707,0.613,22.472,0.360,9.245,2.016,6.677]}
+		]}
+	,"options": {
+	    "scaleBeginAtZero": true,
+	    "scaleShowGridLines": true,
+	    "scaleGridLineColor": "rgba(0,0,0,.05)",
+	    "scaleGridLineWidth": 1,
+	    "scaleShowHorizontalLines": true,
+	    "barShowStroke": true,
+	    "barStrokeWidth": 2,
+	    "barValueSpacing": 5,
+	    "barDatasetSpacing": 1,
+	    "legendTemplate": "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+	    "responsive": true,
+	    "datasetFill":false,
+	    "maintainAspectRatio": true
+	}
+    },
+    "Donut":[
+	{"label":"first","value":52}
+	,{"label":"first s/d","value":9}
+	,{"label":"vodafone","value":18}
+	,{"label":"zalando beha","value":5}
+	,{"label":"zalando intent","value":8}
+	,{"label":"zalando s/d","value":6}		
+	,{"label":"banzai","value":2}		
+    ]
+    ,"TableHead":{"name":"performance table","col":["site","performance","label"]}
+    ,"Table":[
+	{"label":"supplier 1","value":51,"link":"#"}
+	,{"label":"supplier 2","value":45,"link":"#"}
+	,{"label":"supplier 3","value":67,"link":"#"}
+	,{"label":"supplier 4","value":78,"link":"#"}
+	,{"label":"supplier 5","value":21,"link":"#"}
+    ]
+    ,"Progress": [
+	{"date":"2015-02-01","name":"idea"},
+	{"date":"2015-02-11","name":"solution by PI"},
+	{"date":"2015-02-21","name":"live"}
+    ]
+    ,"Task":[
+	{"name":"idea","full":100},
+	{"name":"solution by PI","full":100},
+	{"name":"live","full":50}
+    ],
+    "Knob":[
+	{"name":"dsp","value":22}
+	,{"name":"leaderboard","value":0}
+	,{"name":"box","value":20}
+	,{"name":"spot","value":37}
+	,{"name":"masthead","value":21}
+    ],
+    "Todo":[
+	{"status":1,"text":"new inventory based on dfp","time":"2 hours"}
+	,{"status":1,"text":"finish doc","time":"2 hours"}
+	,{"status":0,"text":"complete tv/web cross","time":"2 hours"}
+	,{"status":0,"text":"new cpm definition","time":"2 hours"}
+    ],
+    "Users":[
+	{"name":"People interactive","task":"new graphics"},
+	{"name":"SIN Market","task":"city list"}
+    ],
+    "chatBox" : [
+	{"author":"mm","text":"","img":"fig/user4-128x128.jpg"}
+    ],
+    "sparkline" : [
+	{"name":"visit","vec":[1000, 1200, 920, 927, 931, 1027, 819, 930, 1021]},
+	{"name":"unique","vec":[515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921]},
+	{"name":"bounce","vec":[15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]}
+    ],
+    "Snapshot" : [
+	{"title":"dashboard presentation","img":"fig/dash_sun.png","link":"pres_dash.php"}
+	,{"title":"presentazione inventory","img":"fig/invPrev.jpg","link":"pres_inventory.php"}
+	,{"title":"presentazione audience","img":"fig/targetAud.jpg","link":"pres_target.php"}
+	,{"title":"presentazione lookalike","img":"fig/audOverlapRadar2.png","link":"pres_alike.php"}
+	,{"title":"documentation","img":"fig/banner3.jpg","link":"https://dauvi.org/intertino"}
+    ]
+}

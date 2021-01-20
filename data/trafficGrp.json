@@ -1,0 +1,289 @@
+{
+ "name": "traffic evolution",
+"size": 39,
+"children": [
+ {
+ "size": 7,
+"name": "donna",
+"children": [
+ {
+ "group": "donna",
+"name": "tustyle",
+"size":      1,
+"img": "logo_tustyle" 
+},
+{
+ "group": "donna",
+"name": "sorrisi",
+"size":      1,
+"img": "logo_sorrisi" 
+},
+{
+ "group": "donna",
+"name": "durso",
+"size":      1,
+"img": "logo_durso" 
+},
+{
+ "group": "donna",
+"name": "grazia",
+"size":      1,
+"img": "logo_grazia" 
+},
+{
+ "group": "donna",
+"name": "donnamoderna",
+"size":      1,
+"img": "logo_donnamoderna" 
+},
+{
+ "group": "donna",
+"name": "pianetadonna",
+"size":      1,
+"img": "logo_pianetadonna" 
+},
+{
+ "group": "donna",
+"name": "unadonna",
+"size":      1,
+"img": "logo_unadonna" 
+} 
+],
+"img": "ico_donna" 
+},
+{
+ "size": 8,
+"name": "entertaiment",
+"children": [
+ {
+ "group": "entertaiment",
+"name": "filippi",
+"size":      1,
+"img": "logo_filippi" 
+},
+{
+ "group": "entertaiment",
+"name": "isola",
+"size":      1,
+"img": "logo_isola" 
+},
+{
+ "group": "entertaiment",
+"name": "rockol",
+"size":      1,
+"img": "logo_rockol" 
+},
+{
+ "group": "entertaiment",
+"name": "iene",
+"size":      1,
+"img": "logo_iene" 
+},
+{
+ "group": "entertaiment",
+"name": "105",
+"size":      1,
+"img": "logo_105" 
+},
+{
+ "group": "entertaiment",
+"name": "r101",
+"size":      1,
+"img": "logo_r101" 
+},
+{
+ "group": "entertaiment",
+"name": "virgin",
+"size":      1,
+"img": "logo_virgin" 
+},
+{
+ "group": "entertaiment",
+"name": "grandefratello",
+"size":      1,
+"img": "logo_grandefratello" 
+} 
+],
+"img": "ico_entertaiment" 
+},
+{
+ "size": 9,
+"name": "news",
+"children": [
+ {
+ "group": "news",
+"name": "panorama",
+"size":      1,
+"img": "logo_panorama" 
+},
+{
+ "group": "news",
+"name": "panoramauto",
+"size":      1,
+"img": "logo_panoramauto" 
+},
+{
+ "group": "news",
+"name": "meteo",
+"size":      1,
+"img": "logo_meteo" 
+},
+{
+ "group": "news",
+"name": "prima",
+"size":      1,
+"img": "logo_prima" 
+},
+{
+ "group": "news",
+"name": "tgcom",
+"size":      1,
+"img": "logo_tgcom" 
+},
+{
+ "group": "news",
+"name": "focus",
+"size":      1,
+"img": "logo_focus" 
+},
+{
+ "group": "news",
+"name": "sporthd",
+"size":      1,
+"img": "logo_sporthd" 
+},
+{
+ "group": "news",
+"name": "giornale",
+"size":      1,
+"img": "logo_giornale" 
+},
+{
+ "group": "news",
+"name": "sportmediaset",
+"size":      1,
+"img": "logo_sportmediaset" 
+} 
+],
+"img": "ico_news" 
+},
+{
+ "size": 2,
+"name": "genitori",
+"children": [
+ {
+ "group": "genitori",
+"name": "nostrofiglio",
+"size":      1,
+"img": "logo_nostrofiglio" 
+},
+{
+ "group": "genitori",
+"name": "mamma",
+"size":      1,
+"img": "logo_mamma" 
+} 
+],
+"img": "ico_genitori" 
+},
+{
+ "size": 3,
+"name": "cucina",
+"children": [
+ {
+ "group": "cucina",
+"name": "giallo",
+"size":      1,
+"img": "logo_giallo" 
+},
+{
+ "group": "cucina",
+"name": "cook",
+"size":      1,
+"img": "logo_cook" 
+},
+{
+ "group": "cucina",
+"name": "salepepe",
+"size":      1,
+"img": "logo_salepepe" 
+} 
+],
+"img": "ico_cucina" 
+},
+{
+ "size": 7,
+"name": "young",
+"children": [
+ {
+ "group": "young",
+"name": "focusjunior",
+"size":      1,
+"img": "logo_focusjunior" 
+},
+{
+ "group": "young",
+"name": "skuola",
+"size":      1,
+"img": "logo_skuola" 
+},
+{
+ "group": "young",
+"name": "studenti",
+"size":      1,
+"img": "logo_studenti" 
+},
+{
+ "group": "young",
+"name": "boingtv",
+"size":      1,
+"img": "logo_boingtv" 
+},
+{
+ "group": "young",
+"name": "cartoonito",
+"size":      1,
+"img": "logo_cartoonito" 
+},
+{
+ "group": "young",
+"name": "blasteem",
+"size":      1,
+"img": "logo_blasteem" 
+},
+{
+ "group": "young",
+"name": "girlpower",
+"size":      1,
+"img": "logo_girlpower" 
+} 
+],
+"img": "ico_young" 
+},
+{
+ "size": 3,
+"name": "benessere",
+"children": [
+ {
+ "group": "benessere",
+"name": "starbene",
+"size":      1,
+"img": "logo_starbene" 
+},
+{
+ "group": "benessere",
+"name": "farmaco",
+"size":      1,
+"img": "logo_farmaco" 
+},
+{
+ "group": "benessere",
+"name": "trainer",
+"size":      1,
+"img": "logo_trainer" 
+} 
+],
+"img": "ico_benessere" 
+} 
+] 
+}

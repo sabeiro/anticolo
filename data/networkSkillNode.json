@@ -1,0 +1,796 @@
+{
+ "nodes": [
+ {
+ "name": "apache",
+"group":      4,
+"size":     18,
+"x": -2.9995,
+"y": 0.63418,
+"idx":      1 
+},
+{
+ "name": "api",
+"group":      4,
+"size":   24.5,
+"x": -2.632,
+"y": 0.48486,
+"idx":      2 
+},
+{
+ "name": "arduino",
+"group":      3,
+"size":   10.8,
+"x": 0.83628,
+"y": -1.4767,
+"idx":      3 
+},
+{
+ "name": "auth",
+"group":      4,
+"size":    7.5,
+"x": -3.177,
+"y": -0.80349,
+"idx":      4 
+},
+{
+ "name": "aws",
+"group":      8,
+"size":      8,
+"x": 3.4874,
+"y": 1.3353,
+"idx":      5 
+},
+{
+ "name": "bash",
+"group":      9,
+"size":   32.4,
+"x": 0.19442,
+"y": 3.1606,
+"idx":      6 
+},
+{
+ "name": "BI",
+"group":      5,
+"size":    9.8,
+"x": -4.8698,
+"y": -6.5093,
+"idx":      7 
+},
+{
+ "name": "blender",
+"group":      7,
+"size":    9.8,
+"x": 0.64727,
+"y": -3.9739,
+"idx":      8 
+},
+{
+ "name": "bluekai",
+"group":      5,
+"size":   12.8,
+"x": 0.39539,
+"y": -8.2125,
+"idx":      9 
+},
+{
+ "name": "c++",
+"group":      8,
+"size":   19.6,
+"x": 2.4575,
+"y": -0.13834,
+"idx":     10 
+},
+{
+ "name": "callbacks",
+"group":      1,
+"size":     18,
+"x": -1.9993,
+"y":  1.162,
+"idx":     11 
+},
+{
+ "name": "caret",
+"group":      2,
+"size":      5,
+"x": 4.2383,
+"y": 0.011774,
+"idx":     12 
+},
+{
+ "name": "cassandra",
+"group":      8,
+"size":    6.4,
+"x": 2.0468,
+"y": 1.0577,
+"idx":     13 
+},
+{
+ "name": "centos",
+"group":      9,
+"size":   10.8,
+"x": 1.7385,
+"y":  2.939,
+"idx":     14 
+},
+{
+ "name": "cgal",
+"group":      2,
+"size":    7.5,
+"x": 3.8058,
+"y": 0.71513,
+"idx":     15 
+},
+{
+ "name": "class. tree",
+"group":      6,
+"size":      5,
+"x": 6.3303,
+"y": -3.5936,
+"idx":     16 
+},
+{
+ "name": "conversion uplift",
+"group":      5,
+"size":    9.8,
+"x": -4.9128,
+"y": -5.8953,
+"idx":     17 
+},
+{
+ "name": "cordoba",
+"group":      3,
+"size":   10.8,
+"x": 1.1209,
+"y": -0.67537,
+"idx":     18 
+},
+{
+ "name": "css3",
+"group":      3,
+"size":   14.7,
+"x": 1.3307,
+"y": -1.9927,
+"idx":     19 
+},
+{
+ "name": "d3",
+"group":      7,
+"size":   14.7,
+"x": 0.51477,
+"y": -3.2151,
+"idx":     20 
+},
+{
+ "name": "data layer",
+"group":      5,
+"size":    9.8,
+"x": -3.4831,
+"y": -6.9031,
+"idx":     21 
+},
+{
+ "name": "dfp",
+"group":      5,
+"size":   10.8,
+"x": -0.112,
+"y": -8.983,
+"idx":     22 
+},
+{
+ "name": "docker",
+"group":      9,
+"size":   14.4,
+"x": -0.070002,
+"y": 3.7197,
+"idx":     23 
+},
+{
+ "name": "doxygen",
+"group":      9,
+"size":   19.2,
+"x": 1.2099,
+"y": 4.4707,
+"idx":     24 
+},
+{
+ "name": "ec2",
+"group":      8,
+"size":   19.6,
+"x": 3.3831,
+"y": 1.1576,
+"idx":     25 
+},
+{
+ "name": "eclipse",
+"group":      9,
+"size":    4.8,
+"x": 0.72612,
+"y": 2.1531,
+"idx":     26 
+},
+{
+ "name": "elastic",
+"group":      9,
+"size":   10.8,
+"x": 1.3482,
+"y": 1.7885,
+"idx":     27 
+},
+{
+ "name": "encryption",
+"group":      4,
+"size":   10.8,
+"x": -3.0187,
+"y": -0.53678,
+"idx":     28 
+},
+{
+ "name": "fenics",
+"group":      2,
+"size":    7.5,
+"x": 4.3487,
+"y": 0.22526,
+"idx":     29 
+},
+{
+ "name": "firewall",
+"group":      4,
+"size":   24.5,
+"x": -2.8153,
+"y": 0.18338,
+"idx":     30 
+},
+{
+ "name": "ggplot",
+"group":      7,
+"size":   12.8,
+"x": -0.10625,
+"y": -3.8989,
+"idx":     31 
+},
+{
+ "name": "git",
+"group":      9,
+"size":   14.7,
+"x": 0.52096,
+"y": 4.4905,
+"idx":     32 
+},
+{
+ "name": "gsl",
+"group":      2,
+"size":   14.7,
+"x": 4.0804,
+"y": 1.1567,
+"idx":     33 
+},
+{
+ "name": "gtk+",
+"group":      7,
+"size":    3.2,
+"x": 0.15598,
+"y": -2.3739,
+"idx":     34 
+},
+{
+ "name": "hdfs",
+"group":      8,
+"size":     10,
+"x": 2.0154,
+"y":  1.329,
+"idx":     35 
+},
+{
+ "name": "html5",
+"group":      3,
+"size":   19.2,
+"x":  1.907,
+"y": -1.6655,
+"idx":     36 
+},
+{
+ "name": "inf theory",
+"group":      6,
+"size":    7.2,
+"x": 7.1014,
+"y": -4.1863,
+"idx":     37 
+},
+{
+ "name": "interaction design",
+"group":      5,
+"size":    7.2,
+"x":  -3.33,
+"y": -5.9683,
+"idx":     38 
+},
+{
+ "name": "java",
+"group":      3,
+"size":    3.6,
+"x": 1.4318,
+"y": -0.70432,
+"idx":     39 
+},
+{
+ "name": "js",
+"group":      3,
+"size":   19.2,
+"x": 1.5383,
+"y": -1.4517,
+"idx":     40 
+},
+{
+ "name": "keras",
+"group":      2,
+"size":     18,
+"x": 4.3674,
+"y": -0.54418,
+"idx":     41 
+},
+{
+ "name": "kibana",
+"group":      7,
+"size":   14.7,
+"x": -0.89907,
+"y": -4.3461,
+"idx":     42 
+},
+{
+ "name": "krux",
+"group":      5,
+"size":    9.8,
+"x": -0.43432,
+"y": -8.6792,
+"idx":     43 
+},
+{
+ "name": "linear algebra",
+"group":      6,
+"size":   12.8,
+"x": 6.8207,
+"y": -2.781,
+"idx":     44 
+},
+{
+ "name": "logit",
+"group":      6,
+"size":    7.2,
+"x": 5.1578,
+"y": -3.2925,
+"idx":     45 
+},
+{
+ "name": "maple",
+"group":      2,
+"size":    7.5,
+"x": 5.2468,
+"y": -0.022894,
+"idx":     46 
+},
+{
+ "name": "matlab",
+"group":      2,
+"size":   14.7,
+"x": 4.7865,
+"y": 1.3706,
+"idx":     47 
+},
+{
+ "name": "maxymiser",
+"group":      7,
+"size":   21.6,
+"x": 1.1703,
+"y": -5.8985,
+"idx":     48 
+},
+{
+ "name": "mayavi",
+"group":      7,
+"size":    7.2,
+"x": 0.42285,
+"y": -4.2425,
+"idx":     49 
+},
+{
+ "name": "mol dyn",
+"group":      6,
+"size":   12.8,
+"x": 5.6161,
+"y": -4.6221,
+"idx":     50 
+},
+{
+ "name": "mongodb",
+"group":      1,
+"size":    2.7,
+"x": -1.0239,
+"y": 0.72834,
+"idx":     51 
+},
+{
+ "name": "monte carlo",
+"group":      6,
+"size":   12.8,
+"x": 5.4457,
+"y": -4.3553,
+"idx":     52 
+},
+{
+ "name": "mpi",
+"group":      2,
+"size":    7.5,
+"x":    4.1,
+"y": 0.78473,
+"idx":     53 
+},
+{
+ "name": "mysql",
+"group":      1,
+"size":   25.6,
+"x": -0.61209,
+"y": -0.32961,
+"idx":     54 
+},
+{
+ "name": "neo4j",
+"group":      9,
+"size":    3.2,
+"x": 0.24415,
+"y": 1.7005,
+"idx":     55 
+},
+{
+ "name": "neural net",
+"group":      6,
+"size":    7.2,
+"x": 6.1745,
+"y": -3.2278,
+"idx":     56 
+},
+{
+ "name": "nodejs",
+"group":      4,
+"size":    7.5,
+"x": -3.2098,
+"y": 0.30142,
+"idx":     57 
+},
+{
+ "name": "nugg.ad",
+"group":      5,
+"size":      5,
+"x": -0.10114,
+"y": -8.3388,
+"idx":     58 
+},
+{
+ "name": "numpy",
+"group":      2,
+"size":   14.7,
+"x": 4.8792,
+"y": 0.96486,
+"idx":     59 
+},
+{
+ "name": "octave",
+"group":      2,
+"size":   14.7,
+"x": 5.0795,
+"y": 1.2223,
+"idx":     60 
+},
+{
+ "name": "odoo",
+"group":      5,
+"size":   14.7,
+"x": 0.26952,
+"y": -8.8321,
+"idx":     61 
+},
+{
+ "name": "open frameworks",
+"group":      3,
+"size":   10.8,
+"x": 1.9649,
+"y": -1.142,
+"idx":     62 
+},
+{
+ "name": "openGL",
+"group":      7,
+"size":   12.8,
+"x": 0.29269,
+"y": -3.7684,
+"idx":     63 
+},
+{
+ "name": "openLayer",
+"group":      7,
+"size":   14.7,
+"x": -0.12669,
+"y": -3.0077,
+"idx":     64 
+},
+{
+ "name": "openMP",
+"group":      2,
+"size":   19.2,
+"x": 3.8661,
+"y": 1.0113,
+"idx":     65 
+},
+{
+ "name": "pandas",
+"group":      2,
+"size":   10.8,
+"x": 5.1062,
+"y": 0.77475,
+"idx":     66 
+},
+{
+ "name": "parquet",
+"group":      9,
+"size":    1.6,
+"x": 0.3858,
+"y": 1.3926,
+"idx":     67 
+},
+{
+ "name": "PCA",
+"group":      6,
+"size":      5,
+"x": 7.0463,
+"y": -3.0788,
+"idx":     68 
+},
+{
+ "name": "perl",
+"group":      3,
+"size":    7.5,
+"x": 1.2308,
+"y": 0.049996,
+"idx":     69 
+},
+{
+ "name": "povray",
+"group":      7,
+"size":    7.2,
+"x": -0.30332,
+"y": -3.6177,
+"idx":     70 
+},
+{
+ "name": "processing",
+"group":      3,
+"size":    7.5,
+"x": 0.68819,
+"y": -1.2402,
+"idx":     71 
+},
+{
+ "name": "psql",
+"group":      9,
+"size":   14.4,
+"x": 0.025518,
+"y": 2.1154,
+"idx":     72 
+},
+{
+ "name": "python",
+"group":      8,
+"size":   19.6,
+"x": 2.6633,
+"y": -0.33069,
+"idx":     73 
+},
+{
+ "name": "qgis",
+"group":      7,
+"size":    7.5,
+"x": -0.37207,
+"y": -2.8871,
+"idx":     74 
+},
+{
+ "name": "qt4",
+"group":      7,
+"size":    9.8,
+"x": 0.063394,
+"y": -4.2144,
+"idx":     75 
+},
+{
+ "name": "R",
+"group":      3,
+"size":   51.2,
+"x": 1.2971,
+"y": -2.4772,
+"idx":     76 
+},
+{
+ "name": "random forest",
+"group":      6,
+"size":    3.2,
+"x": 6.3585,
+"y": -2.8952,
+"idx":     77 
+},
+{
+ "name": "raspberry",
+"group":      1,
+"size":   10.8,
+"x": -1.6988,
+"y": -0.74383,
+"idx":     78 
+},
+{
+ "name": "reg. tree",
+"group":      6,
+"size":    3.2,
+"x": 6.6615,
+"y": -3.3604,
+"idx":     79 
+},
+{
+ "name": "rest",
+"group":      4,
+"size":   38.4,
+"x": -2.8181,
+"y": -0.92032,
+"idx":     80 
+},
+{
+ "name": "rhino",
+"group":      3,
+"size":      5,
+"x": 1.6289,
+"y": -2.5361,
+"idx":     81 
+},
+{
+ "name": "s3",
+"group":      8,
+"size":     10,
+"x": 2.2048,
+"y": 1.2518,
+"idx":     82 
+},
+{
+ "name": "scipy",
+"group":      2,
+"size":   19.6,
+"x": 3.9298,
+"y": -0.051179,
+"idx":     83 
+},
+{
+ "name": "sed",
+"group":      9,
+"size":   14.7,
+"x": 0.81484,
+"y": 3.4697,
+"idx":     84 
+},
+{
+ "name": "soap",
+"group":      4,
+"size":   21.6,
+"x": -2.6544,
+"y": -0.64791,
+"idx":     85 
+},
+{
+ "name": "spark",
+"group":      8,
+"size":   14.4,
+"x": 3.5889,
+"y": 1.5225,
+"idx":     86 
+},
+{
+ "name": "spss",
+"group":      3,
+"size":   10.8,
+"x": 2.5943,
+"y": -1.5368,
+"idx":     87 
+},
+{
+ "name": "svn",
+"group":      9,
+"size":   14.7,
+"x": 0.88199,
+"y": 4.6652,
+"idx":     88 
+},
+{
+ "name": "tableau",
+"group":      7,
+"size":    7.5,
+"x": -1.0535,
+"y": -4.1141,
+"idx":     89 
+},
+{
+ "name": "tealium",
+"group":      5,
+"size":    9.8,
+"x": 0.59439,
+"y": -8.6138,
+"idx":     90 
+},
+{
+ "name": "theano",
+"group":      2,
+"size":     18,
+"x":   3.56,
+"y": 0.32826,
+"idx":     91 
+},
+{
+ "name": "tracking",
+"group":      5,
+"size":   19.2,
+"x": -3.311,
+"y": -4.4196,
+"idx":     92 
+},
+{
+ "name": "ubuntu",
+"group":      9,
+"size":   19.2,
+"x": 1.9575,
+"y": 3.0929,
+"idx":     93 
+},
+{
+ "name": "user exp",
+"group":      5,
+"size":    9.8,
+"x": -3.6343,
+"y": -5.4956,
+"idx":     94 
+},
+{
+ "name": "user interface",
+"group":      5,
+"size":    9.8,
+"x": -3.3132,
+"y": -5.6547,
+"idx":     95 
+},
+{
+ "name": "web dev",
+"group":      5,
+"size":   12.8,
+"x": -4.3927,
+"y": -6.6701,
+"idx":     96 
+},
+{
+ "name": "web services",
+"group":      5,
+"size":   12.8,
+"x": -4.6191,
+"y": -6.1869,
+"idx":     97 
+},
+{
+ "name": "webtrekk",
+"group":      5,
+"size":   19.2,
+"x": -0.98571,
+"y": -7.4895,
+"idx":     98 
+},
+{
+ "name": "webtrends",
+"group":      5,
+"size":   14.7,
+"x": -1.2084,
+"y": -7.6937,
+"idx":     99 
+} 
+] 
+}

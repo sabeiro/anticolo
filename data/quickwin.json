@@ -1,0 +1,158 @@
+{
+    "Name": "Dummy board",
+    "Desc": "<a href=\"LogIn.php\"> Log in </a> for full access",
+    "Sector": "NlLh",
+    "Market": {"DE":1,"US":1,"UK":1,"IT":100,"FR":1,"ES":1,"CN":1,"RU":1,"PL":1,"AT":1,"CH":1,"JP":1,"IN":1,"CA":1,"SE":1,"NL":1,"NO":1,"FI":1,"DK":1},
+    "Parameter":[
+	{"name":"inventory","val":"34 M","ref":"adserver","ico":"ion-bag","link":"inventory_section.php"}
+	,{"name":"KPI 1","val":"65%","ref":"institute I","ico":"ion-stats-bars","link":"viewability.php"}
+	,{"name":"price/client","val":"34","ref":"ERP","ico":"ion-person-add","link":"prezzario.php"}
+	,{"name":"rules","val":"5k5 url","ref":"ComScore","ico":"ion-pie-graph","link":"sunburst.php"}
+	,{"name":"postvaluation","val":"9","ref":"institute II","ico":"ion-pie-graph","link":"fig/inTargetHeatBench.svg"}
+	,{"name":"sale ev","val":"3%","ref":"ERP","ico":"ion-pie-graph","link":"fig/audienceUsage.svg"}
+	,{"name":"product catalog","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"fig/audComp.svg"}
+	,{"name":"client notebook","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"price.php"}
+	,{"name":"company structure","val":"213","ref":"persone","ico":"ion-stats-bars","link":"circle_pack.php"}
+    ]
+    ,"MorrisArea":{
+	"element":"revenue-chart"
+	,"resize":true
+	,"data":[{"y": "2016-07", "item1": 0.84, "item2": 0.0}
+		 ,{"y": "2016-08", "item1": 0.53, "item2": 0.0}
+		 ,{"y": "2016-09", "item1": 0.86, "item2": 0.54}
+		 ,{"y": "2016-10", "item1": 1.12, "item2": 7.95}
+		 ,{"y": "2016-11", "item1": 1.03, "item2": 4.84}
+		 ,{"y": "2016-12", "item1": 1.20, "item2": 12.66}
+		 ,{"y": "2017-01", "item1": 1.26, "item2": 8.49}
+		 ,{"y": "2017-02", "item1": 0.92, "item2": 5.52}
+		 ,{"y": "2017-03", "item1": 0.65, "item2": 22.70}
+		 ,{"y": "2017-04", "item1": 0.61, "item2": 12.1}
+		]
+	,"xkey":"y"
+	,"ykeys":["item1","item2"]
+	,"labels":["imps tot [G]","imps target [M]"]
+	,"lineColors":["#a0d0e0","#3c8dbc"]
+	,"hideHover":"auto"
+    }
+    ,"MorrisLine":{
+	"element":"line-chart"
+	,"resize":true
+	,"data":[{ "y": "2016-07", "item1": 12.6, "item2": 0.0}
+		 ,{"y": "2016-08", "item1": 21.3, "item2": 0.0}
+		 ,{"y": "2016-09", "item1": 24.5, "item2": 0.6}
+		 ,{"y": "2016-10", "item1": 26.6, "item2": 18.7}
+		 ,{"y": "2016-11", "item1": 26.8, "item2": 58.4}
+		 ,{"y": "2016-12", "item1": 37.5, "item2": 31.3}
+		 ,{"y": "2017-01", "item1": 33.8, "item2": 68.4}
+		 ,{"y": "2017-02", "item1": 35.7, "item2": 84.6}
+		 ,{"y": "2017-03", "item1": 26.3, "item2": 89.3}
+		 ,{"y": "2017-04", "item1": 26.1, "item2": 78.3}
+		]
+	,"xkey":"y"
+	,"ykeys":["item1","item2"]
+	,"labels":["inventory 1","inventory 2"]
+	,"lineColors":["#a0d0e0","#3c8dbc"]
+	,"hideHover":"auto"
+	,"lineWidth":2
+	,"gridTextColor": "#fff"
+	,"gridStrokeWidth": 0.4
+	,"pointSize": 4
+	,"pointStrokeColors": ["#efefef"]
+	,"gridLineColor": "#efefef"
+	,"gridTextFamily": "Open Sans"
+	,"gridTextSize": 10
+    }
+    ,"MorrisBar":{
+	"element":"bar-chart"
+	,"resize":true
+	,"barColors": ["#00a65a","#f56954","#4569f4"]
+	,"xkey": "y"
+	,"ykeys": ["a","b","c","d","e","f"]
+	,"data":[ { "y": "16-07","a": 885,"b": 0,"c": 0,"d": 0,"e": 0,"f": 1377031 },{ "y": "16-08","a": 120533,"b": 0,"c": 0,"d": 54310,"e": 0,"f": 0 },{ "y": "16-09","a": 245076,"b": 215270,"c": 0,"d": 791678,"e": 0,"f": 0 },{ "y": "16-10","a": 3127669,"b": 480342,"c": 0,"d": 2003769,"e": 182340,"f": 0 },{ "y": "16-11","a": 4429496,"b": 591106,"c": 0,"d": 845325,"e": 140694,"f": 244591 },{ "y": "16-12","a": 5157768,"b": 349759,"c": 0,"d": 829552,"e": 192217,"f": 2462938 },{ "y": "17-01","a": 811411,"b": 1978458,"c": 0,"d": 2109415,"e": 1049331,"f": 18988 },{ "y": "17-02","a": 1532402,"b": 651991,"c": 0,"d": 274175,"e": 567153,"f": 0 },{ "y": "17-03","a": 11495491,"b": 501501,"c": 954589,"d":2321262 ,"e":383865 ,"f":83677  } ]
+	,"labels": ["rest","client 1","client 2","client 3","client 4","client 5"]
+	,"hideHover":"auto"
+    }
+    ,"barChart":{
+	"title":"values products 2016",
+	"data":{"labels": ["product 1","product 2","product 3","product 4","product 5","product 6","product 7","product 8"],
+		"datasets": [
+		    {"label": "sold [G]","fillColor": "rgba(210, 214, 222, 1)","strokeColor": "rgba(210, 214, 222, 1)","pointColor": "rgba(210, 214, 222, 1)","pointStrokeColor": "#c1c7d1","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(220,220,220,1)","data": [5.48,9.39,13.37,12.54,7.67,1.67,5.80,4.24]}
+		    ,{"label": "rev [M]","fillColor": "rgba(60,141,188,0.9)","strokeColor": "rgba(60,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(60,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [0.355,0.820,0.046,1.792,0.047,5.527,0.348,1.576]}
+		    ,{"label": "KPI I [%]","fillColor": "rgba(200,141,188,0.9)","strokeColor": "rgba(200,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(200,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [1.948,7.707,0.613,22.472,0.360,9.245,2.016,6.677]}
+		    ,{"label": "KPI II [%]","fillColor": "rgba(200,141,188,0.9)","strokeColor": "rgba(200,141,188,0.8)","pointColor": "#3b8bba","pointStrokeColor": "rgba(200,141,188,1)","pointHighlightFill": "#fff","pointHighlightStroke": "rgba(60,141,188,1)","data": [0,7.707,0.613,22.472,0.360,9.245,2.016,6.677]}
+		]}
+	,"options": {
+	    "scaleBeginAtZero": true,
+	    "scaleShowGridLines": true,
+	    "scaleGridLineColor": "rgba(0,0,0,.05)",
+	    "scaleGridLineWidth": 1,
+	    "scaleShowHorizontalLines": true,
+	    "barShowStroke": true,
+	    "barStrokeWidth": 2,
+	    "barValueSpacing": 5,
+	    "barDatasetSpacing": 1,
+	    "legendTemplate": "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+	    "responsive": true,
+	    "datasetFill":false,
+	    "maintainAspectRatio": true
+	}
+    }
+    ,"Donut":[
+	{"label":"rest","value":52}
+	,{"label":"provider 1","value":9}
+	,{"label":"provider 2","value":18}
+	,{"label":"provider 3","value":5}
+	,{"label":"provider 4","value":8}
+	,{"label":"provider 5","value":6}		
+	,{"label":"provider 6","value":2}		
+    ]
+    ,"TableHead":{"name":"performance table","col":["site","performance","label"]}
+    ,"Table":[
+	{"label":"supplier 1","value":51,"link":"#"}
+	,{"label":"supplier 2","value":45,"link":"#"}
+	,{"label":"supplier 3","value":67,"link":"#"}
+	,{"label":"supplier 4","value":78,"link":"#"}
+	,{"label":"supplier 5","value":21,"link":"#"}
+    ]
+    ,"Progress": [
+	{"date":"2015-02-01","name":"idea"},
+	{"date":"2015-02-11","name":"solution by provider 1"},
+	{"date":"2015-02-21","name":"live"}
+    ],
+    "Task":[
+	{"name":"idea","full":100},
+	{"name":"solution by provider 1","full":100},
+	{"name":"live","full":50}
+    ],
+    "Knob":[
+	{"name":"platform 1","value":22}
+	,{"name":"platform 2","value":0}
+	,{"name":"platform 3","value":20}
+	,{"name":"platform 4","value":37}
+	,{"name":"platform 5","value":21}
+    ],
+    "Todo":[
+	{"status":1,"text":"new inventory based on platform 1","time":"2 hours"}
+	,{"status":1,"text":"finish doc","time":"2 hours"}
+	,{"status":0,"text":"complete cross analisys","time":"2 hours"}
+	,{"status":0,"text":"new CKP III definition","time":"2 hours"}
+    ],
+    "Users":[
+	{"name":"provider 3","task":"new graphics"},
+	{"name":"client 4","task":"city list"}
+    ],
+    "chatBox" : [
+	{"author":"mm","text":"","img":"fig/user4-128x128.jpg"}
+    ],
+    "sparkline" : [
+	{"name":"visit","vec":[1000, 1200, 920, 927, 931, 1027, 819, 930, 1021]},
+	{"name":"unique","vec":[515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921]},
+	{"name":"bounce","vec":[15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]}
+    ],
+    "Snapshot" : [
+	{"title":"dashboard presentation","img":"fig/dash_sun.png","link":"pres_dash.php"}
+	,{"title":"dauvi","img":"fig/module_library.png","link":"https://dauvi.org"}
+	,{"title":"documentation","img":"fig/banner3.jpg","link":"https://dauvi.org/intertino"}
+    ]
+}
+

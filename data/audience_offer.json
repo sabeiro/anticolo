@@ -1,0 +1,1510 @@
+{
+ "name": "audience offer",
+"title": "",
+"children": [
+ {
+ "name": "socio-demo",
+"size": 3.8886,
+"children": [
+ {
+ "name": "Donne 1.2 M",
+"size": 0.075639,
+"label": "1176 k",
+"color": "#9E0142" 
+},
+{
+ "name": "Uomini 1.8 M",
+"size": 0.11411,
+"label": "1774 k",
+"color": "#9E0142" 
+},
+{
+ "name": "18-24 2.3 M",
+"size": 0.15072,
+"label": "2342 k",
+"color": "#9E0142" 
+},
+{
+ "name": "18-34 2.8 M",
+"size": 0.17939,
+"label": "2788 k",
+"color": "#9E0142" 
+},
+{
+ "name": "18-44 11.1 M",
+"size": 0.71127,
+"label": "11055 k",
+"color": "#9E0142" 
+},
+{
+ "name": "25-34 0.7 k",
+"size": 0.044474,
+"label": "691 k",
+"color": "#9E0142" 
+},
+{
+ "name": "25-44 9 M",
+"size": 0.57592,
+"label": "8951 k",
+"color": "#9E0142" 
+},
+{
+ "name": "25-54 9.7 M",
+"size": 0.62305,
+"label": "9684 k",
+"color": "#9E0142" 
+},
+{
+ "name": "35-44 8.6 M",
+"size": 0.55344,
+"label": "8602 k",
+"color": "#9E0142" 
+},
+{
+ "name": "35-54 9.3 M",
+"size": 0.59807,
+"label": "9295 k",
+"color": "#9E0142" 
+},
+{
+ "name": "45-54 1.4 M",
+"size": 0.090156,
+"label": "1401 k",
+"color": "#9E0142" 
+},
+{
+ "name": "45-64 1.7 M",
+"size": 0.10808,
+"label": "1680 k",
+"color": "#9E0142" 
+},
+{
+ "name": "55-64 1 k",
+"size": 0.064219,
+"label": "998 k",
+"color": "#9E0142" 
+} 
+],
+"color": "#9E0142",
+"img": "fig/ico_socio-demo.svg" 
+},
+{
+ "name": "cucina",
+"size": 2.9276,
+"children": [
+ {
+ "name": "Cucina 1.8 M",
+"size": 0.11322,
+"label": "1760 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Birra 1.1 M",
+"size": 0.071544,
+"label": "1112 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Caffè 1.6 M",
+"size": 0.10235,
+"label": "1591 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Cooking 3.6 M",
+"size": 0.22868,
+"label": "3554 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Carne 1.8 M",
+"size": 0.11278,
+"label": "1753 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Cereali 2 M",
+"size": 0.12923,
+"label": "2008 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Cioccolato 1.8 M",
+"size": 0.11307,
+"label": "1757 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Dolci 3.1 M",
+"size": 0.20117,
+"label": "3127 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Erbe aromatiche 2.2 M",
+"size": 0.14282,
+"label": "2220 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Farina 1.7 M",
+"size": 0.10739,
+"label": "1669 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Formaggi 1.9 M",
+"size": 0.12274,
+"label": "1908 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Frutta 3.3 M",
+"size": 0.21383,
+"label": "3323 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Gelato 0.2 k",
+"size": 0.01537,
+"label": "239 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Mozzarella 0.4 k",
+"size": 0.027236,
+"label": "423 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Olio 2.8 M",
+"size": 0.18176,
+"label": "2825 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Pasta 2.6 M",
+"size": 0.16493,
+"label": "2563 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Pesce 1.4 M",
+"size": 0.089756,
+"label": "1395 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Polenta 0.3 k",
+"size": 0.021593,
+"label": "336 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Riso 0.7 k",
+"size": 0.047327,
+"label": "736 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Salumi 1.2 M",
+"size": 0.075847,
+"label": "1179 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Tonno 2.1 M",
+"size": 0.13574,
+"label": "2110 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Vegetariano 0.1 k",
+"size": 0.0094075,
+"label": "146 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Verdure 3.9 M",
+"size": 0.25237,
+"label": "3922 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Enogastronomia & Vini 0.9 k",
+"size": 0.060941,
+"label": "947 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Merenda 1.6 M",
+"size": 0.10472,
+"label": "1628 k",
+"color": "#D53E4F" 
+},
+{
+ "name": "Yogurt 1.3 M",
+"size": 0.08179,
+"label": "1271 k",
+"color": "#D53E4F" 
+} 
+],
+"color": "#D53E4F",
+"img": "fig/ico_cucina.svg" 
+},
+{
+ "name": "benessere",
+"size": 1.4851,
+"children": [
+ {
+ "name": "Bellezza 0.8 k",
+"size": 0.050753,
+"label": "789 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Cibo ^ Salute 0.5 k",
+"size": 0.034096,
+"label": "530 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Cura corpo 0.8 k",
+"size": 0.050753,
+"label": "789 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Diete 0.2 k",
+"size": 0.010954,
+"label": "170 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Medicine 0.3 k",
+"size": 0.016677,
+"label": "259 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Salute e benessere 0.8 k",
+"size": 0.053594,
+"label": "833 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Alimenti senza glutine 0.6 k",
+"size": 0.037171,
+"label": "578 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Colesterolo 1 M",
+"size": 0.067021,
+"label": "1042 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Creme solari 50.5 k",
+"size": 0.0032478,
+"label": "50 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Diabete 1.3 M",
+"size": 0.082201,
+"label": "1278 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Farmaceutica 3.5 M",
+"size": 0.22348,
+"label": "3473 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Fisioterapia 0.3 k",
+"size": 0.019844,
+"label": "308 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Fitness & Wellness 4.3 M",
+"size": 0.27455,
+"label": "4267 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Forma fisica estiva 0.5 k",
+"size": 0.029988,
+"label": "466 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Integratori 0.6 k",
+"size": 0.039461,
+"label": "613 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Intolleranza al lattosio 0.3 k",
+"size": 0.017506,
+"label": "272 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Intolleranze alimentari 0.7 k",
+"size": 0.044834,
+"label": "697 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Malattia Influenza 0.4 k",
+"size": 0.024324,
+"label": "378 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Malattie dello stomaco 0.7 k",
+"size": 0.047155,
+"label": "733 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Nutrizionismo e dieta 2.8 M",
+"size": 0.17986,
+"label": "2795 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Omeopatia 0.3 k",
+"size": 0.018596,
+"label": "289 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Prodotti Bio 0.4 k",
+"size": 0.025209,
+"label": "392 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Stress e Stanchezza 1 M",
+"size": 0.064425,
+"label": "1001 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Yoga 0.1 k",
+"size": 0.0091854,
+"label": "143 k",
+"color": "#F46D43" 
+},
+{
+ "name": "Romanticismo 0.9 k",
+"size": 0.060181,
+"label": "935 k",
+"color": "#F46D43" 
+} 
+],
+"color": "#F46D43",
+"img": "fig/ico_benessere.svg" 
+},
+{
+ "name": "geo",
+"size":  1.323,
+"children": [
+ {
+ "name": "Alta densità 7 M",
+"size": 0.45237,
+"label": "7031 k",
+"color": "#FDAE61" 
+},
+{
+ "name": "Centro 3.8 M",
+"size": 0.24507,
+"label": "3809 k",
+"color": "#FDAE61" 
+},
+{
+ "name": "Isole 1.1 M",
+"size": 0.070539,
+"label": "1096 k",
+"color": "#FDAE61" 
+},
+{
+ "name": "Nord 6.7 M",
+"size": 0.43219,
+"label": "6717 k",
+"color": "#FDAE61" 
+},
+{
+ "name": "Sud 1.9 M",
+"size": 0.12282,
+"label": "1909 k",
+"color": "#FDAE61" 
+} 
+],
+"color": "#FDAE61",
+"img": "fig/ico_geo.svg" 
+},
+{
+ "name": "tech",
+"size": 1.2056,
+"children": [
+ {
+ "name": "Foto 0.6 k",
+"size": 0.037781,
+"label": "587 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Tech 0.7 k",
+"size": 0.04367,
+"label": "679 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Video/giochi 48 k",
+"size": 0.0030884,
+"label": "48 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Fotografia 2.5 M",
+"size": 0.1631,
+"label": "2535 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Musica & Audio 1.7 M",
+"size": 0.10657,
+"label": "1656 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "PC & informatica 4.6 M",
+"size": 0.29582,
+"label": "4598 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Tecnologia 4.1 M",
+"size": 0.2657,
+"label": "4129 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Telefonia 1.8 M",
+"size": 0.1161,
+"label": "1804 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Telefonia Android 0.6 k",
+"size": 0.038535,
+"label": "599 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "TV & Home Video 0.6 k",
+"size": 0.041237,
+"label": "641 k",
+"color": "#9E50DB" 
+},
+{
+ "name": "Videogames 1.5 M",
+"size": 0.094002,
+"label": "1461 k",
+"color": "#9E50DB" 
+} 
+],
+"color": "#9E50DB",
+"img": "fig/ico_tech.svg" 
+},
+{
+ "name": "media",
+"size": 1.0838,
+"children": [
+ {
+ "name": "Faceto/gossip 0.8 k",
+"size": 0.054335,
+"label": "844 k",
+"color": "#4F9F2F" 
+},
+{
+ "name": "Meteo 1.9 M",
+"size": 0.11981,
+"label": "1862 k",
+"color": "#4F9F2F" 
+},
+{
+ "name": "News 5.1 M",
+"size": 0.32768,
+"label": "5093 k",
+"color": "#4F9F2F" 
+},
+{
+ "name": "Sciure 1.8 M",
+"size": 0.1154,
+"label": "1794 k",
+"color": "#4F9F2F" 
+},
+{
+ "name": "Tv lovers 6.9 M",
+"size": 0.44312,
+"label": "6887 k",
+"color": "#4F9F2F" 
+},
+{
+ "name": "News 0.4 k",
+"size": 0.023428,
+"label": "364 k",
+"color": "#4F9F2F" 
+} 
+],
+"color": "#4F9F2F",
+"img": "fig/ico_media.svg" 
+},
+{
+ "name": "eventi",
+"size": 0.95396,
+"children": [
+ {
+ "name": "Arte 23.7 k",
+"size": 0.0015236,
+"label": "24 k",
+"color": "#367528" 
+},
+{
+ "name": "Cultura 0.7 k",
+"size": 0.047932,
+"label": "745 k",
+"color": "#367528" 
+},
+{
+ "name": "Dinamici 0.5 k",
+"size": 0.032181,
+"label": "500 k",
+"color": "#367528" 
+},
+{
+ "name": "Musica 1.5 M",
+"size": 0.095617,
+"label": "1486 k",
+"color": "#367528" 
+},
+{
+ "name": "Scommesse 41.6 k",
+"size": 0.0026766,
+"label": "42 k",
+"color": "#367528" 
+},
+{
+ "name": "Arte & Musei 0.8 k",
+"size": 0.053934,
+"label": "838 k",
+"color": "#367528" 
+},
+{
+ "name": "Bricolage 0.9 k",
+"size": 0.058339,
+"label": "907 k",
+"color": "#367528" 
+},
+{
+ "name": "Cinema & Teatro 2.1 M",
+"size": 0.13549,
+"label": "2106 k",
+"color": "#367528" 
+},
+{
+ "name": "Cultura 2.3 M",
+"size": 0.15019,
+"label": "2334 k",
+"color": "#367528" 
+},
+{
+ "name": "Design 0.4 k",
+"size": 0.023614,
+"label": "367 k",
+"color": "#367528" 
+},
+{
+ "name": "Entertainment 1.4 M",
+"size": 0.091182,
+"label": "1417 k",
+"color": "#367528" 
+},
+{
+ "name": "Movies 2.9 M",
+"size": 0.18676,
+"label": "2903 k",
+"color": "#367528" 
+},
+{
+ "name": "Musica & Concerti 1.2 M",
+"size": 0.074517,
+"label": "1158 k",
+"color": "#367528" 
+} 
+],
+"color": "#367528",
+"img": "fig/ico_eventi.svg" 
+},
+{
+ "name": "sport",
+"size": 0.91659,
+"children": [
+ {
+ "name": "Calcio 2.2 M",
+"size": 0.13974,
+"label": "2172 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport 3.8 M",
+"size": 0.24631,
+"label": "3828 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Ciclismo 0.2 k",
+"size": 0.010245,
+"label": "159 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Olimpiadi 1.4 M",
+"size": 0.091082,
+"label": "1416 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport 2.1 M",
+"size": 0.13379,
+"label": "2079 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Acquatici 0.1 k",
+"size": 0.0070812,
+"label": "110 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport attività outdoor 2.1 M",
+"size": 0.13261,
+"label": "2061 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Basket 63.5 k",
+"size": 0.0040836,
+"label": "63 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Calcio 0.4 k",
+"size": 0.023191,
+"label": "360 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Estremi 0.8 k",
+"size": 0.049678,
+"label": "772 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Invernali 0.9 k",
+"size": 0.060125,
+"label": "934 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Running 0.1 k",
+"size": 0.0078264,
+"label": "122 k",
+"color": "#ABDDA4" 
+},
+{
+ "name": "Sport Tennis 0.2 k",
+"size": 0.010836,
+"label": "168 k",
+"color": "#ABDDA4" 
+} 
+],
+"color": "#ABDDA4",
+"img": "fig/ico_sport.svg" 
+},
+{
+ "name": "acquisti",
+"size": 0.91585,
+"children": [
+ {
+ "name": "Accessori 0.2 k",
+"size": 0.014124,
+"label": "220 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Borse 0.2 k",
+"size": 0.014865,
+"label": "231 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "E-shoppers 2 M",
+"size": 0.1305,
+"label": "2028 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Fashion woman 1.3 M",
+"size": 0.083984,
+"label": "1305 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Jewelery 39 k",
+"size": 0.0025119,
+"label": "39 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Shoe 0.8 k",
+"size": 0.049435,
+"label": "768 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Vestiti sport 0.4 k",
+"size": 0.024398,
+"label": "379 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Cosmesi & Bellezza 0.7 k",
+"size": 0.046678,
+"label": "725 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Fashion & Luxury 0.5 k",
+"size": 0.034162,
+"label": "531 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "Alto spendenti 0.6 k",
+"size": 0.036535,
+"label": "568 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "buyers 0.7 k",
+"size": 0.042402,
+"label": "659 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "buyers ePrice 0.6 k",
+"size": 0.041329,
+"label": "642 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "buyers SaldiPrivati 0.6 k",
+"size": 0.040142,
+"label": "624 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "users 2.5 M",
+"size": 0.15895,
+"label": "2470 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "users ePrice 2.1 M",
+"size": 0.1379,
+"label": "2143 k",
+"color": "#66C2A5" 
+},
+{
+ "name": "users SaldiPrivati 0.9 k",
+"size": 0.057933,
+"label": "900 k",
+"color": "#66C2A5" 
+} 
+],
+"color": "#66C2A5",
+"img": "fig/ico_acquisti.svg" 
+},
+{
+ "name": "viaggi",
+"size": 0.84872,
+"children": [
+ {
+ "name": "Viaggi 0.3 k",
+"size": 0.01748,
+"label": "272 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Travel 0.3 k",
+"size": 0.01615,
+"label": "251 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei 0.5 k",
+"size": 0.029853,
+"label": "464 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Africa] 0.1 k",
+"size": 0.007536,
+"label": "117 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Business Europa] 90.1 k",
+"size": 0.0057951,
+"label": "90 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Business Internazionale] 97.2 k",
+"size": 0.0062557,
+"label": "97 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Business] 35.8 k",
+"size": 0.0023064,
+"label": "36 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Easyjet] 0.3 k",
+"size": 0.020722,
+"label": "322 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Internazionali] 0.3 k",
+"size": 0.019499,
+"label": "303 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Low Price Europa] 0.8 k",
+"size": 0.048444,
+"label": "753 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Nazionali] 0.3 k",
+"size": 0.018563,
+"label": "288 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Aerei [Ryanair] 0.3 k",
+"size": 0.020551,
+"label": "319 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Campeggio e trekking 0.1 k",
+"size": 0.0072806,
+"label": "113 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Capitali europee 3.9 M",
+"size": 0.25317,
+"label": "3935 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere 0.3 k",
+"size": 0.018613,
+"label": "289 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Canarie & Marocco] 0.3 k",
+"size": 0.017868,
+"label": "278 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Caraibi & Antille] 0.3 k",
+"size": 0.017595,
+"label": "273 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Emirati Arabi] 0.3 k",
+"size": 0.017572,
+"label": "273 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Mediterraneo] 0.3 k",
+"size": 0.018342,
+"label": "285 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Nord Europa] 0.3 k",
+"size": 0.017445,
+"label": "271 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Oceano Pacifico] 0.3 k",
+"size": 0.017472,
+"label": "272 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Sud Africa] 0.3 k",
+"size": 0.017361,
+"label": "270 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Crociere [Sud America] 0.3 k",
+"size": 0.017377,
+"label": "270 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Ecosostenibile 0.5 k",
+"size": 0.031008,
+"label": "482 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Gite fuori porta 0.6 k",
+"size": 0.037106,
+"label": "577 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Mare 0.3 k",
+"size": 0.022143,
+"label": "344 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti 0.3 k",
+"size": 0.017054,
+"label": "265 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti [Corsica] 0.3 k",
+"size": 0.017416,
+"label": "271 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti [Grimaldi] 0.3 k",
+"size": 0.022471,
+"label": "349 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti [Isola Elba] 0.3 k",
+"size": 0.017386,
+"label": "270 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti [Sardegna] 0.3 k",
+"size": 0.017436,
+"label": "271 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Traghetti [Sicilia] 0.2 k",
+"size": 0.015628,
+"label": "243 k",
+"color": "#3288BD" 
+},
+{
+ "name": "Treni Alta Velocità 0.3 k",
+"size": 0.017819,
+"label": "277 k",
+"color": "#3288BD" 
+} 
+],
+"color": "#3288BD",
+"img": "fig/ico_viaggi.svg" 
+},
+{
+ "name": "finanza",
+"size": 0.45987,
+"children": [
+ {
+ "name": "Assicurazioni Genitori Casa 0.8 k",
+"size": 0.048982,
+"label": "761 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "B2B 20.2 k",
+"size": 0.0012971,
+"label": "20 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Business/Finanza 1.1 M",
+"size": 0.06916,
+"label": "1075 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Lavoro 27.2 k",
+"size": 0.0017501,
+"label": "27 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Risparmio bollette 97.3 k",
+"size": 0.0062592,
+"label": "97 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Assicurazioni 0.1 k",
+"size": 0.0088965,
+"label": "138 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Carte di credito 1.1 M",
+"size": 0.072368,
+"label": "1125 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Finance & Business 1.8 M",
+"size": 0.11811,
+"label": "1836 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Mutui 0.4 k",
+"size": 0.022801,
+"label": "354 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Prestiti personali 0.4 k",
+"size": 0.025846,
+"label": "402 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Previdenza e Pensione 0.6 k",
+"size": 0.03683,
+"label": "572 k",
+"color": "#5E4FA2" 
+},
+{
+ "name": "Prodotti bancari 0.7 k",
+"size": 0.047566,
+"label": "739 k",
+"color": "#5E4FA2" 
+} 
+],
+"color": "#5E4FA2",
+"img": "fig/ico_finanza.svg" 
+},
+{
+ "name": "istruzione",
+"size": 0.43929,
+"children": [
+ {
+ "name": "Lettori 21.1 k",
+"size": 0.0013589,
+"label": "21 k",
+"color": "#67001F" 
+},
+{
+ "name": "Scuola/Uni 0.1 k",
+"size": 0.0082563,
+"label": "128 k",
+"color": "#67001F" 
+},
+{
+ "name": "Insegnanti 0.1 k",
+"size": 0.0084665,
+"label": "132 k",
+"color": "#67001F" 
+},
+{
+ "name": "Istruzione 1.4 M",
+"size": 0.09309,
+"label": "1447 k",
+"color": "#67001F" 
+},
+{
+ "name": "Lingue straniere 1 M",
+"size": 0.065789,
+"label": "1022 k",
+"color": "#67001F" 
+},
+{
+ "name": "maturandi 0.3 k",
+"size": 0.017622,
+"label": "274 k",
+"color": "#67001F" 
+},
+{
+ "name": "orientamento università 0.6 k",
+"size": 0.036141,
+"label": "562 k",
+"color": "#67001F" 
+},
+{
+ "name": "post-laurea 1 k",
+"size": 0.063589,
+"label": "988 k",
+"color": "#67001F" 
+},
+{
+ "name": "Scuole Medie 5.6 k",
+"size": 0.00036231,
+"label": "6 k",
+"color": "#67001F" 
+},
+{
+ "name": "Scuole Superiori 14.7 k",
+"size": 0.00094852,
+"label": "15 k",
+"color": "#67001F" 
+},
+{
+ "name": "Università 2.2 M",
+"size": 0.14367,
+"label": "2233 k",
+"color": "#67001F" 
+} 
+],
+"color": "#67001F",
+"img": "fig/ico_istruzione.svg" 
+},
+{
+ "name": "casa",
+"size": 0.43896,
+"children": [
+ {
+ "name": "Casa Arredo 0.3 k",
+"size": 0.019807,
+"label": "308 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Estate 0.2 k",
+"size": 0.012498,
+"label": "194 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Pulito 0.6 k",
+"size": 4.1179e-05,
+"label": "1 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Arredamento 0.9 k",
+"size": 0.057207,
+"label": "889 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Elettrodomestici 1.8 M",
+"size": 0.11265,
+"label": "1751 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Giardinaggio 0.7 k",
+"size": 0.044138,
+"label": "686 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Immobiliare 1.7 M",
+"size": 0.10998,
+"label": "1709 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Lavatrici & Asciugatrici 0.5 k",
+"size": 0.033757,
+"label": "525 k",
+"color": "#B2183B" 
+},
+{
+ "name": "Sicurezza casa 0.8 k",
+"size": 0.048884,
+"label": "760 k",
+"color": "#B2183B" 
+} 
+],
+"color": "#B2183B",
+"img": "fig/ico_casa.svg" 
+},
+{
+ "name": "abbigliamento",
+"size": 0.41189,
+"children": [
+ {
+ "name": "Moda 0.8 k",
+"size": 0.052462,
+"label": "815 k",
+"color": "#D6604D" 
+},
+{
+ "name": "Abbigliamento Donna 1.3 M",
+"size": 0.084531,
+"label": "1314 k",
+"color": "#D6604D" 
+},
+{
+ "name": "Abbigliamento Estivo 1.3 M",
+"size": 0.082979,
+"label": "1290 k",
+"color": "#D6604D" 
+},
+{
+ "name": "Abbigliamento Generale 1.5 M",
+"size": 0.099327,
+"label": "1544 k",
+"color": "#D6604D" 
+},
+{
+ "name": "Abbigliamento Sportivo 0.7 k",
+"size": 0.042467,
+"label": "660 k",
+"color": "#D6604D" 
+},
+{
+ "name": "Abbigliamento Uomo 0.8 k",
+"size": 0.05012,
+"label": "779 k",
+"color": "#D6604D" 
+} 
+],
+"color": "#D6604D",
+"img": "fig/ico_abbigliamento.svg" 
+},
+{
+ "name": "motori",
+"size": 0.37288,
+"children": [
+ {
+ "name": "Motori 2.2 M",
+"size": 0.14151,
+"label": "2199 k",
+"color": "#F4A582" 
+},
+{
+ "name": "Auto elettriche-ibride 45.9 k",
+"size": 0.0029556,
+"label": "46 k",
+"color": "#F4A582" 
+},
+{
+ "name": "Car-Bike Sharing 18.9 k",
+"size": 0.0012177,
+"label": "19 k",
+"color": "#F4A582" 
+},
+{
+ "name": "Auto usate 1.3 M",
+"size": 0.081721,
+"label": "1270 k",
+"color": "#F4A582" 
+},
+{
+ "name": "Motori - Auto 1.5 M",
+"size": 0.095691,
+"label": "1487 k",
+"color": "#F4A582" 
+},
+{
+ "name": "Motori - Moto 0.8 k",
+"size": 0.049783,
+"label": "774 k",
+"color": "#F4A582" 
+} 
+],
+"color": "#F4A582",
+"img": "fig/ico_motori.svg" 
+},
+{
+ "name": "genitori",
+"size": 0.36772,
+"children": [
+ {
+ "name": "Fertilità 0.5 k",
+"size": 0.031378,
+"label": "488 k",
+"color": "#D7B7A7" 
+},
+{
+ "name": "Genitori 0.7 k",
+"size": 0.048138,
+"label": "748 k",
+"color": "#D7B7A7" 
+},
+{
+ "name": "Genitori 1.5 M",
+"size": 0.095169,
+"label": "1479 k",
+"color": "#D7B7A7" 
+},
+{
+ "name": "Mamme 0.8 k",
+"size": 0.052903,
+"label": "822 k",
+"color": "#D7B7A7" 
+},
+{
+ "name": "Papà 1 k",
+"size": 0.062921,
+"label": "978 k",
+"color": "#D7B7A7" 
+},
+{
+ "name": "Donne in gravidanza 1.2 M",
+"size": 0.077207,
+"label": "1200 k",
+"color": "#D7B7A7" 
+} 
+],
+"color": "#D7B7A7",
+"img": "fig/ico_genitori.svg" 
+},
+{
+ "name": "lifestyle",
+"size": 0.10253,
+"children": [
+ {
+ "name": "Lifestyle 0.5 k",
+"size": 0.033664,
+"label": "523 k",
+"color": "#FDDBC7" 
+},
+{
+ "name": "Spendaccioni 0.8 k",
+"size": 0.054335,
+"label": "844 k",
+"color": "#FDDBC7" 
+},
+{
+ "name": "Mobilità sostenibile 0.2 k",
+"size": 0.01115,
+"label": "173 k",
+"color": "#FDDBC7" 
+},
+{
+ "name": "Sharing Economy 52.5 k",
+"size": 0.0033784,
+"label": "53 k",
+"color": "#FDDBC7" 
+} 
+],
+"color": "#FDDBC7",
+"img": "fig/ico_lifestyle.svg" 
+},
+{
+ "name": "animali",
+"size": 0.083091,
+"children": [
+ {
+ "name": "Animali  0.4 k",
+"size": 0.026396,
+"label": "410 k",
+"color": "#D1E5F0" 
+},
+{
+ "name": "Animali Domestici 0.4 k",
+"size": 0.025305,
+"label": "393 k",
+"color": "#D1E5F0" 
+},
+{
+ "name": "Animali Domestici - Cani 0.3 k",
+"size": 0.018581,
+"label": "289 k",
+"color": "#D1E5F0" 
+},
+{
+ "name": "Animali Domestici - Gatti 0.2 k",
+"size": 0.012809,
+"label": "199 k",
+"color": "#D1E5F0" 
+} 
+],
+"color": "#D1E5F0",
+"img": "fig/ico_animali.svg" 
+},
+{
+ "name": "cultura",
+"size": 0.070663,
+"children": [
+ {
+ "name": "Scienza 1.1 M",
+"size": 0.070663,
+"label": "1098 k",
+"color": "#92C5DE" 
+} 
+],
+"color": "#92C5DE",
+"img": "fig/ico_cultura.svg" 
+},
+{
+ "name": "ecologia",
+"size": 0.061963,
+"children": [
+ {
+ "name": "Ecologia/ambiente 0.4 k",
+"size": 0.02621,
+"label": "407 k",
+"color": "#4393C3" 
+},
+{
+ "name": "Natura/coltivare 0.2 k",
+"size": 0.013321,
+"label": "207 k",
+"color": "#4393C3" 
+},
+{
+ "name": "Ecologia & Ambiente 61.4 k",
+"size": 0.0039502,
+"label": "61 k",
+"color": "#4393C3" 
+},
+{
+ "name": "Natura e animali 0.3 k",
+"size": 0.018481,
+"label": "287 k",
+"color": "#4393C3" 
+} 
+],
+"color": "#4393C3",
+"img": "fig/ico_ecologia.svg" 
+} 
+] 
+}

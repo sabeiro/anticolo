@@ -1,0 +1,852 @@
+{
+ "links": [
+ {
+ "word": "apache",
+"x": 1.4326,
+"y": -4.471,
+"freq": 1.0605,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "api",
+"x": 1.9414,
+"y": -4.3921,
+"freq": 1.0937,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "arduino",
+"x":  1.014,
+"y": -0.53158,
+"freq": 1.0077,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "auth",
+"x": 2.8317,
+"y": -3.8608,
+"freq": 0.97164,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "bash",
+"x": -2.3734,
+"y": -3.3726,
+"freq": 1.1247,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "BI",
+"x": 8.1627,
+"y": -1.5569,
+"freq": 0.99798,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "blender",
+"x": 3.5651,
+"y": 1.1411,
+"freq": 0.99798,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "bluekai",
+"x": 7.8617,
+"y": 3.4251,
+"freq":  1.025,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "c++",
+"x": -0.90142,
+"y": 0.3628,
+"freq": 1.0696,
+"cluster":      6,
+"group": "programming" 
+},
+{
+ "word": "callbacks",
+"x": 0.52817,
+"y": -4.0582,
+"freq": 1.0605,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "caret",
+"x": -2.0428,
+"y": 1.7089,
+"freq": 0.93303,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "cassandra",
+"x": -1.9415,
+"y": -0.67014,
+"freq": 0.95635,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "centos",
+"x": -3.0618,
+"y": -1.9153,
+"freq": 1.0077,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "cgal",
+"x": -2.3776,
+"y": 0.98675,
+"freq": 0.97164,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "class. tree",
+"x": -0.39656,
+"y": 5.3181,
+"freq": 0.93303,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "conversion uplift",
+"x": 7.7603,
+"y": -1.8918,
+"freq": 0.99798,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "cordoba",
+"x": 0.15303,
+"y": -0.25517,
+"freq": 1.0077,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "css3",
+"x": 1.3496,
+"y": 0.41638,
+"freq": 1.0393,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "d3",
+"x": 2.8164,
+"y":   0.47,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "data layer",
+"x": 7.9488,
+"y": -0.73887,
+"freq": 0.99798,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "dfp",
+"x": 7.4242,
+"y": 3.3403,
+"freq": 1.0077,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "docker",
+"x": -2.6724,
+"y": -3.8941,
+"freq": 1.0371,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "doxygen",
+"x": -3.7187,
+"y": -3.8661,
+"freq": 1.0674,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "ec2",
+"x": -2.8052,
+"y": 0.39817,
+"freq": 1.0696,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "eclipse",
+"x": -1.8171,
+"y": -2.3671,
+"freq": 0.92923,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "elastic",
+"x": -1.871,
+"y": -1.5898,
+"freq": 1.0077,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "emr",
+"x": -2.4807,
+"y": 0.46158,
+"freq": 0.95635,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "encryption",
+"x": 2.6651,
+"y": -3.5261,
+"freq": 1.0077,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "fenics",
+"x": -2.0758,
+"y": 1.9574,
+"freq": 0.97164,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "firewall",
+"x": 1.7667,
+"y": -4.6828,
+"freq": 1.0937,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "ggplot",
+"x": 3.2565,
+"y": 1.0476,
+"freq":  1.025,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "git",
+"x": -3.8183,
+"y": -3.4177,
+"freq": 1.0393,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "gsl",
+"x": -2.6776,
+"y": 1.2036,
+"freq": 1.0393,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "gtk+",
+"x": 2.3156,
+"y": -0.22162,
+"freq": 0.89231,
+"cluster":      1,
+"group": "data viz" 
+},
+{
+ "word": "hdfs",
+"x": -1.6858,
+"y": -0.53764,
+"freq":      1,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "html5",
+"x": 0.66613,
+"y": 0.6463,
+"freq": 1.0674,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "inf theory",
+"x": 0.47578,
+"y": 6.4623,
+"freq": 0.96768,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "interaction design",
+"x": 6.7472,
+"y": -0.86813,
+"freq": 0.96768,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "java",
+"x": 0.30391,
+"y": -0.52491,
+"freq": 0.90288,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "js",
+"x": 0.72191,
+"y": 0.26016,
+"freq": 1.0674,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "keras",
+"x": -1.471,
+"y": 2.2115,
+"freq": 1.0605,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "kibana",
+"x": 4.2697,
+"y": 0.069318,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.2697,
+"y": 0.069318,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.2697,
+"y": 0.069318,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.2697,
+"y": 0.069318,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.4743,
+"y": 0.10864,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.4743,
+"y": 0.10864,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.4743,
+"y": 0.10864,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "kibana",
+"x": 4.4743,
+"y": 0.10864,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "krux",
+"x": 8.2886,
+"y": 2.6546,
+"freq": 0.99798,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "linear algebra",
+"x": -0.63105,
+"y": 5.6759,
+"freq":  1.025,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "logit",
+"x": 0.6174,
+"y": 4.3577,
+"freq": 0.96768,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "maple",
+"x": -2.326,
+"y": 2.7489,
+"freq": 0.97164,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "matlab",
+"x": -2.9691,
+"y": 2.1252,
+"freq": 1.0393,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "maxymiser",
+"x":  4.947,
+"y": 2.4139,
+"freq": 1.0801,
+"cluster":      4,
+"group": "platforms" 
+},
+{
+ "word": "mayavi",
+"x": 3.5279,
+"y": 0.21706,
+"freq": 0.96768,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "mol dyn",
+"x": 1.4877,
+"y": 5.1802,
+"freq":  1.025,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "mongodb",
+"x": 0.36032,
+"y": -3.008,
+"freq": 0.87728,
+"cluster":      2,
+"group": "datawarehouse" 
+},
+{
+ "word": "monte carlo",
+"x": 1.5525,
+"y": 5.4861,
+"freq":  1.025,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "mpi",
+"x":  -2.81,
+"y": 1.0091,
+"freq": 0.97164,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "mysql",
+"x": 1.0569,
+"y": -2.0871,
+"freq": 1.0986,
+"cluster":      2,
+"group": "datawarehouse" 
+},
+{
+ "word": "neo4j",
+"x": -1.1384,
+"y": -2.4886,
+"freq": 0.89231,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "neural net",
+"x": 0.23677,
+"y": 5.2312,
+"freq": 0.96768,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "nodejs",
+"x": 1.6085,
+"y": -4.1141,
+"freq": 0.97164,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "nugg.ad",
+"x":  7.861,
+"y": 2.6469,
+"freq": 0.93303,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "numpy",
+"x": -3.1512,
+"y": 1.7753,
+"freq": 1.0393,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "octave",
+"x": -3.3184,
+"y": 2.0198,
+"freq": 1.0393,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "odoo",
+"x": 7.4649,
+"y": 2.8989,
+"freq": 1.0393,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "open frameworks",
+"x": 0.21497,
+"y": 0.37574,
+"freq": 1.0077,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "openGL",
+"x": 3.3639,
+"y": 0.65644,
+"freq":  1.025,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "openLayer",
+"x": 2.9432,
+"y": -0.14083,
+"freq": 1.0393,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "openMP",
+"x": -2.3937,
+"y":  1.252,
+"freq": 1.0674,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "pandas",
+"x": -3.4379,
+"y": 1.6211,
+"freq": 1.0077,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "parquet",
+"x": -1.0127,
+"y": -2.1767,
+"freq": 0.83255,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "PCA",
+"x": -0.30418,
+"y": 5.8635,
+"freq": 0.93303,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "perl",
+"x": -0.38003,
+"y": -0.83981,
+"freq": 0.97164,
+"cluster":      6,
+"group": "programming" 
+},
+{
+ "word": "povray",
+"x": 3.7266,
+"y": 0.5515,
+"freq": 0.96768,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "processing",
+"x": 1.1245,
+"y": -0.27954,
+"freq": 0.97164,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "psql",
+"x": -1.3873,
+"y": -2.891,
+"freq": 1.0371,
+"cluster":      5,
+"group": "datawarehouse" 
+},
+{
+ "word": "python",
+"x": -0.81441,
+"y": 0.65145,
+"freq": 1.0696,
+"cluster":      6,
+"group": "programming" 
+},
+{
+ "word": "qgis",
+"x": 3.0499,
+"y": -0.36936,
+"freq": 0.97164,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "qt4",
+"x": 3.8109,
+"y": 0.9022,
+"freq": 0.99798,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "R",
+"x": 1.7589,
+"y": 0.70992,
+"freq": 1.1774,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "random forest",
+"x": 0.15228,
+"y": 5.5954,
+"freq": 0.89231,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "raspberry",
+"x": 1.9664,
+"y": -2.7547,
+"freq": 1.0077,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "reg. tree",
+"x": -0.13698,
+"y": 5.0875,
+"freq": 0.89231,
+"cluster":      8,
+"group": "methods" 
+},
+{
+ "word": "rest",
+"x": 2.5917,
+"y": -4.0933,
+"freq":  1.144,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "rhino",
+"x": 1.6259,
+"y": 1.0673,
+"freq": 0.93303,
+"cluster":      1,
+"group": "data viz" 
+},
+{
+ "word": "s3",
+"x": -1.7069,
+"y": -0.75482,
+"freq":      1,
+"cluster":      6,
+"group": "datawarehouse" 
+},
+{
+ "word": "scipy",
+"x": -1.7215,
+"y": 1.6272,
+"freq": 1.0696,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "sed",
+"x": -2.9964,
+"y": -3.0493,
+"freq": 1.0393,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "soap",
+"x": 2.4232,
+"y": -3.7188,
+"freq": 1.0801,
+"cluster":      2,
+"group": "web services" 
+},
+{
+ "word": "spark",
+"x": -2.6927,
+"y": 0.55584,
+"freq": 1.0371,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "spss",
+"x": 0.24718,
+"y": 1.1967,
+"freq": 1.0077,
+"cluster":      1,
+"group": "programming" 
+},
+{
+ "word": "svn",
+"x": -4.1472,
+"y": -3.4551,
+"freq": 1.0393,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "tableau",
+"x": 4.2478,
+"y": -0.23421,
+"freq": 0.97164,
+"cluster":      4,
+"group": "data viz" 
+},
+{
+ "word": "tealium",
+"x": 8.1619,
+"y": 3.1063,
+"freq": 0.99798,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "theano",
+"x": -1.8292,
+"y": 1.1027,
+"freq": 1.0605,
+"cluster":      7,
+"group": "computing" 
+},
+{
+ "word": "tracking",
+"x": 5.8205,
+"y": -2.0061,
+"freq": 1.0674,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "ubuntu",
+"x": -3.2784,
+"y": -1.814,
+"freq": 1.0674,
+"cluster":      5,
+"group": "development" 
+},
+{
+ "word": "user exp",
+"x": 6.4902,
+"y": -1.1432,
+"freq": 0.99798,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "user interface",
+"x": 6.7051,
+"y": -1.3173,
+"freq": 0.99798,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "web dev",
+"x":  7.766,
+"y": -2.3355,
+"freq":  1.025,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "web services",
+"x": 8.1613,
+"y": -2.0197,
+"freq":  1.025,
+"cluster":      9,
+"group": "strategy" 
+},
+{
+ "word": "webtrekk",
+"x": 7.6884,
+"y":  1.463,
+"freq": 1.0674,
+"cluster":      3,
+"group": "platforms" 
+},
+{
+ "word": "webtrends",
+"x":   7.38,
+"y": 1.5371,
+"freq": 1.0393,
+"cluster":      3,
+"group": "platforms" 
+} 
+] 
+}

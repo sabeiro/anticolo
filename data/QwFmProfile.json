@@ -1,0 +1,121 @@
+{
+	"QW":[
+	{
+		"Name": "Month summary",
+		"Desc": "Most important KPI on the mediamond properties",
+		"Sector": "NlLh",
+		"Market": {"DE":1,"US":1,"UK":1,"IT":100,"FR":1,"ES":1,"CN":1,"RU":1,"PL":1,"AT":1,"CH":1,"JP":1,"IN":1,"CA":1,"SE":1,"NL":1,"NO":1,"FI":1,"DK":1},
+		"Parameter":[
+		{"name":"ClickGen","val":714,"ref":"Responsys"},
+		{"name":"BounceRate","val":"n.a","ref":"WebTrends"},
+		{"name":"BookingEntryRate","val":10.1,"ref":"WebTrends"},
+		{"name":"BookingConvRate","val":7.18,"ref":"WebTrends"},
+		{"name":"Delivered","val":"90%","ref":"WebTrends"},
+		{"name":"Potential","val":"10%","ref":"WebTrends"},
+		{"name":"Bookings","val":252,"ref":"WebTrends"},
+		{"name":"RevenueGen","val":114763,"ref":"calc"}
+		],
+		"Revenue" : [
+		        {"y": "2014 Q4", "item1": 0, "item2": 0,"item3":400},
+				{"y": "2015 Q1", "item1": 100, "item2": 90,"item3":400},
+		        {"y": "2015 Q2", "item1": 250, "item2": 190,"item3":400},
+				{"y": "2015 Q3", "item1": 230, "item2": 210,"item3":400},
+		        {"y": "2015 Q4", "item1": 280, "item2": 260,"item3":400},
+		        {"y": "2016 Q1", "item1": 330, "item2": 310,"item3":400}
+		],
+		"Donut":[
+			{"label":"Generated","value":2},
+			{"label":"Potential","value":98}
+		],
+		"Progress": [
+			{"date":"2015-02-14","name":"tests stop by LA/O due to performance check","topic":"ext"},
+			{"date":"2015-02-14","name":"tests live again, LA/O permission","topic":"ext"},
+
+			{"date":"2015-02-01","name":"idea","topic":"preparation"},
+			{"date":"2015-02-11","name":"solution by PI","topic":"preparation"},
+			{"date":"2015-02-21","name":"live","topic":"run"},
+			{"date":"2015-02-21","name":"live","topic":"eval"},
+
+			{"date":"2015-03-27","name":"Cookie policy discussion with AdServer","topic":"ext"},
+
+			{"date":"2015-03-24","name":"Germanwings crash, tests stop","topic":"ext"},
+			{"date":"2015-18-24","name":"Pilot strike","topic":"ext"},
+			{"date":"2015-19-24","name":"Pilot strike","topic":"ext"},
+			{"date":"2015-20-24","name":"Pilot strike","topic":"ext"},
+			{"date":"2015-03-24","name":"tests stop from LA/O due to crash","topic":"ext"},
+			{"date":"2015-03-26","name":"tests outside the homepage live again","topic":"ext"},
+			{"date":"2015-04-28","name":"planning of homepage rebrush","topic":"ext"},
+
+//MyProfileFM
+			{"date":"2014-12-19","name":"Presentation to PI","topic":"preparation"},
+
+//MyAccountFM
+			{"date":"2014-12-19","name":"Presentation to PI","topic":"preparation"},
+			{"date":"2015-01-29","name":"Test for PI I","topic":"preparation"},
+			{"date":"2015-02-20","name":"Test for PI II","topic":"preparation"},
+
+//OnSiteRet
+			{"date":"2015-01-23","name":"Presentation to PI","topic":"preparation"},
+			{"date":"2015-03-11","name":"Graphic presentation by PI/test I","topic":"preparation"},
+			{"date":"2015-03-18","name":"Graphic presentation by PI/test II","topic":"preparation"},
+
+			{"date":"2015-03-26","name":"Text chage and deeplink to PI","topic":"preparation"},
+			{"date":"2015-04-09","name":"Homepage rebrush proposal by PI, dojo HP will not be implemented","topic":"preparation"},
+			{"date":"2015-04-09","name":"Homepage rebrush proposal by PI, dojo HP will not be implemented","topic":"preparation"},
+			{"date":"2015-04-23","name":"Variant 1 live","topic":"preparation"},
+
+
+//MapOnTopOffers
+			{"date":"2015-02-17","name":"Presentation to PI","topic":"preparation"},
+			{"date":"2015-03-26","name":"Airport list","topic":"preparation"},
+			{"date":"2015-03-26","name":"Airport list, Map only on US offers","topic":"preparation"},
+			{"date":"2015-04-09","name":"New arport list, US zoom","topic":"preparation"},
+
+//Ancillaries on Itco
+			{"date":"2015-02-03","name":"Presentation to LA/O","topic":"preparation"},
+			{"date":"2015-02-20","name":"Presentation to PI","topic":"preparation"},
+			{"date":"2015-03-05","name":"Slot proposal to PI","topic":"preparation"},
+			{"date":"2015-04-01","name":"Margin with Karo","topic":"preparation"}
+//Dynamic flight manager
+			{"date":"2015-02-03","name":"Presentation to LA/O","topic":"preparation"},
+			{"date":"2015-02-20","name":"Presentation to PI","topic":"preparation"},
+//MaxPredict on Mobile
+			{"date":"2015-01-19	","name":"Graphic tests from PI","topic":"preparation"},
+			{"date":"2015-01-27","name":"Graphic tests from PI","topic":"preparation"},
+
+//MaxPredict teaser
+
+
+//FOXX screen
+			{"date":"2015-02-25","name":"FOXX overlay screen","topic":"preparation"},
+
+
+
+		],
+		"Task":[
+			{"name":"idea","full":100},
+			{"name":"solution by PI","full":100},
+			{"name":"live","full":50}
+		],
+		"Todo":[
+			{"status":1,"name":"check the v_1 variable"},
+			{"status":1,"name":"check the v_1 variable"},
+			{"status":0,"name":"check the v_1 variable"},
+			{"status":0,"name":"check the v_1 variable"}
+		],
+		"Users":[
+			{"name":"People interactive","task":"new graphics"},
+			{"name":"SIN Market","task":"city list"}
+		],
+		"dataBar" : [
+		{"y": "2015Q1", "a": 0, "b": 0},
+		{"y": "2015Q2", "a": 75, "b": 65},
+		{"y": "2015Q3", "a": 50, "b": 40},
+		{"y": "2015Q4", "a": 75, "b": 65},
+		{"y": "2016Q1", "a": 50, "b": 40}
+		],
+		"Snapshot":"OriginSlot.png"
+	}
+	]
+}
+
