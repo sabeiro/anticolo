@@ -1,4 +1,11 @@
 /vendor/*
 /plugins/*
-/lib/config.inc.php
-/lib/config.intertino.php
+vendor/
+plugins/
+/lib/conf/config.inc.php
+/lib/conf/config.intertino.php
+lib/conf/config.inc.php
+lib/conf/config.intertino.php
+/data/cust/*
+data/cust/*
+

@@ -2,17 +2,20 @@
 /* ini_set('display_errors', 1);
  * ini_set('display_startup_errors', 1);
  * error_reporting(E_ALL);*/
+ini_set('session.gc_maxlifetime',3600);
+session_set_cookie_params(3600);
 session_start();
-include("config.inc.php");
+include("conf/config.inc.php");
 include("AdminFuncSql.php");
 function encGrp($grpS){
     return crypt((string)$grpS,base64_encode((string)$grpS));
 }
 function Priv($grpA){
     $inactive = 600;
-    ini_set('session.gc_maxlifetime',3600);
-    session_set_cookie_params(3600);
-    $_SESSION['ref_page'] = $_SERVER['REQUEST_URI'];
+    $cookStr = '';
+    if(isset($_COOKIE['ref_page'])){$_SESSION['ref_page'] = $_SERVER['REQUEST_URI'];
+    }else{$_SESSION['ref_page'] = 'index.php';}
+    if(isset($_SESSION['group'])){}else{$_SESSION['group'] = '';}
     if(isset($_COOKIE['intertino_id'])){$cookStr = $_COOKIE['intertino_id'];}
     $logCook = $cookStr != '';
     $logSess = isset($_SESSION['login']);
@@ -208,6 +211,3 @@ function addUser($username,$password,$group){
     $auth = $data->DbQuery($query);
 }
 ?>
-
-
-

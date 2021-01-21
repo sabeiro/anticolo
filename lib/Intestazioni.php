@@ -63,21 +63,9 @@
 			</a>
 			<ul class="nav nav-treeview">
 			    <li class="nav-item">
-				<a href="file:///home/sabeiro/lav/aff/AdminLTE-3.0.5/index.html" class="nav-link">
+				<a href="index.php" class="nav-link">
 				    <i class="far fa-circle nav-icon"></i>
 				    <p>Dashboard v1</p>
-				</a>
-			    </li>
-			    <li class="nav-item">
-				<a href="file:///home/sabeiro/lav/aff/AdminLTE-3.0.5/index2.html" class="nav-link">
-				    <i class="far fa-circle nav-icon"></i>
-				    <p>Dashboard v2</p>
-				</a>
-			    </li>
-			    <li class="nav-item">
-				<a href="file:///home/sabeiro/lav/aff/AdminLTE-3.0.5/index3.html" class="nav-link">
-				    <i class="far fa-circle nav-icon"></i>
-				    <p>Dashboard v3</p>
 				</a>
 			    </li>
 			</ul>
@@ -128,13 +116,13 @@
 	    <li class="nav-item dropdown">
 		<a class="nav-link" data-toggle="dropdown" href="#">
 		    <i class="far fa-comments"></i>
-		    <span class="badge badge-danger navbar-badge">3</span>
+		    <span class="badge badge-danger navbar-badge">0</span>
 		</a>
 		<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
 		    <a href="#" class="dropdown-item">
 			<!-- Message Start -->
 			<div class="media">
-			    <img src="index2_dosieroj/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+			    <img src="fig/ico/user.svg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
 			    <div class="media-body">
 				<h3 class="dropdown-item-title">
 				    Brad Diesel
@@ -147,37 +135,6 @@
 			<!-- Message End -->
 		    </a>
 		    <div class="dropdown-divider"></div>
-		    <a href="#" class="dropdown-item">
-			<!-- Message Start -->
-			<div class="media">
-			    <img src="index2_dosieroj/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-			    <div class="media-body">
-				<h3 class="dropdown-item-title">
-				    John Pierce
-				    <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-				</h3>
-				<p class="text-sm">I got your message bro</p>
-				<p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-			    </div>
-			</div>
-			<!-- Message End -->
-		    </a>
-		    <div class="dropdown-divider"></div>
-		    <a href="#" class="dropdown-item">
-			<!-- Message Start -->
-			<div class="media">
-			    <img src="index2_dosieroj/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-			    <div class="media-body">
-				<h3 class="dropdown-item-title">
-				    Nora Silvester
-				    <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-				</h3>
-				<p class="text-sm">The subject goes here</p>
-				<p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-			    </div>
-			</div>
-			<!-- Message End -->
-		    </a>
 		    <div class="dropdown-divider"></div>
 		    <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
 		</div>
@@ -186,7 +143,7 @@
 	    <li class="nav-item dropdown">
 		<a class="nav-link" data-toggle="dropdown" href="#">
 		    <i class="far fa-bell"></i>
-		    <span class="badge badge-warning navbar-badge">15</span>
+		    <span class="badge badge-warning navbar-badge">0</span>
 		</a>
 		<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
 		    <span class="dropdown-item dropdown-header">15 Notifications</span>
@@ -275,7 +232,7 @@
     <aside class="control-sidebar control-sidebar-dark">
 	<!-- Control sidebar content goes here -->
 	<div class="p-3 control-sidebar-content">
-	    <h5>Customize AdminLTE</h5>
+	    <h5>Customize</h5>
 	    <hr class="mb-2"><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>No Navbar border</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Body small text</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Navbar small text</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Sidebar nav small text</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Footer small text</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Sidebar nav flat style</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Sidebar nav legacy style</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Sidebar nav compact</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Sidebar nav child indent</span></div><div class="mb-1"><input type="checkbox" value="1" class="mr-1"><span>Main Sidebar disable hover/focus auto expand</span></div><div class="mb-4"><input type="checkbox" value="1" class="mr-1"><span>Brand small text</span></div>
 	</div></aside>
     <!-- /.control-sidebar -->

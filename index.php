@@ -83,7 +83,7 @@ include("lib/SqlFunction.php");
 	<!-- anticolo -->
 	<script src="lib/dash/js/anticolo.js"></script>
 	<script>
-	 var jData = <?php if(isPriv()){echo '"data/dash_sky.json"';}else{echo '"data/quickwin.json"';} ?>;
+	 var jData = <?php if(isPriv()){echo '"data/cust/dash_sky.json"';}else{echo '"data/quickwin.json"';} ?>;
 	 loadData(jData);
 	</script>
 </body></html>

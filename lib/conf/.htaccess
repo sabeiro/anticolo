@@ -1,0 +1,8 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /var/www/.htpasswd 
+AuthGroupFile /dev/null 
+<Files config.*>
+require valid-user
+</Files>
+

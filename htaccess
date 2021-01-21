@@ -1,0 +1,250 @@
+Options +FollowSymLinks -MultiViews 
+RewriteEngine on
+# RewriteLog "/var/log/apache2/rewrite.log"
+# RewriteLogLevel 3
+##----------------300---------------------
+Redirect "/track300.gif" "/track.gif"
+Redirect 301 "/track301.gif" "/track.gif"
+#Redirect 301 "^/track301.gif" "/track.gif"
+Redirect 302 "/track302.gif" "/track.gif"
+Redirect 303 "/track303.gif" "/track.gif"
+#RewriteRule    "^/track300\.gif$"  "track.gif"  [R]
+##----------------400---------------------
+ErrorDocument 404 /404.php
+ErrorDocument 401 /LogIn.php
+# ErrorDocument 500 /
+##---------------Restrict-access----------
+# IndexIgnore *.jpg *.png
+# RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+# order allow,deny
+# deny from 123.45.6.7
+# deny from 012.34.5.
+# allow from all
+# IP block 012.34.5.
+# Order allow,deny
+# Allow from all
+##--------------prevent-hotlink-----------
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?anticolo.dauvi.org/.*$ [NC]
+RewriteRule \.(jpg|png|css)$ - [F]
+RewriteCond %{REQUEST_URI} !^/(media|skin|js)/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [L]
+##---------------prevent-force-csv--------#error
+# <Files *.csv>
+#   ForceType application/octet-stream
+#   Header set Content-Disposition attachment
+# </Files>
+##-------------SEO------------------------
+#RewriteRule ^products/([0-9][0-9])/$ /productinfo.php?prodID=$1 
+#RewriteRule ^widgets/(.*)/page(.*)\.php /widgets.php?cat=$1&page=$2 [L]
+<IfModule mod_rewrite.c>
+RewriteRule ^mod_rewrite\.html$ / [L]
+RewriteRule ^mod_rewrite\.php$ / [L]
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+# RewriteCond %{THE_REQUEST} ^.*/index.php
+# RewriteRule ^(.*)index.php$ http://anticolo.dauvi.org/$1 [R=301,L]
+# Redirect 301 /home http://anticolo.dauvi.org 
+RewriteCond %{HTTP_HOST} !^anticolo.dauvi.org$ [NC]
+RewriteRule (.*) http://anticolo.dauvi.org/$1 [R=301,L]
+RewriteRule ^(([^/]+/)*)index\.php http://anticolo.dauvi.org/$1 [R=301,L]
+#RewriteRule ^olddir/(.*) http://www.example.com/newdir/$1 [R=301,L]
+# Get the requested URI, query string and hostname.
+RewriteCond %{REQUEST_URI} ^(/[^?]*)([?].*)?$
+RewriteRule . - [E=myUri:%1,E=myQuery:%2]
+# Replace hmtl, htlm, and thml file extensions with html extension.
+RewriteCond %{ENV:myUri} ^(.*)[.,](hmtl|htlm|thml)$ [NC]
+RewriteRule . - [E=myRedirect:yes,E=myUri:%1.html]
+# Replace comma(s) or multiple filetype delimiter periods in the url
+# with a single period.
+RewriteCond %{ENV:myUri} ^(.*)([,.]{2,}|,)((s?html?|php[1-9]?|aspx?|pdf|xls).*)$ [NC]
+RewriteRule . - [E=myRedirect:yes,E=myUri:%1.%3]
+# Remove invalid trailing characters
+RewriteCond %{ENV:myUri} ^([/0-9a-z._\-]*)[^/0-9a-z._\-] [NC]
+RewriteRule . - [E=myRedirect:yes,E=myUri:%1]
+# Remove trailing punctutation
+RewriteCond %{ENV:myUri} ^(.*)[._\-]+$
+RewriteRule . - [E=myRedirect:yes,E=myUri:%1]
+# Do the external 301 redirect only if needed and the resource exists
+# at the corrected URI.
+RewriteCond %{ENV:myRedirect} ^yes$ [NC]
+RewriteCond %{DOCUMENT_ROOT}%{ENV:myUri} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{ENV:myUri} -d
+RewriteRule . http://anticolo.dauvi.org%{ENV:myUri}%{ENV:myQuery} [R=301,L]
+RewriteRule ^index.html$ index.php
+</IfModule>
+##---------------cache-------------------#error
+# # 1 WEEK
+# <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+# Header set Cache-Control "max-age=604800, public"
+# </FilesMatch>
+# # 2 DAYS
+# <FilesMatch "\.(xml|txt|css|js)$">
+# Header set Cache-Control "max-age=172800, proxy-revalidate"
+# </FilesMatch>
+# # 1 MIN
+# <FilesMatch "\.(html|htm|php)$">
+# Header set Cache-Control "max-age=60, private, proxy-revalidate"
+# </FilesMatch>
+##http://www.catswhocode.com/blog/10-htaccess-snippets-to-optimize-your-website
+##-------------spam-on-mail-form----------
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} .wp-comments-post\.php*
+RewriteCond %{HTTP_REFERER} !.*anticolo.dauvi.org.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) ^http://%{REMOTE_ADDR}/$ [R=301,L]
+</IfModule>
+##-------------html5-video----------------
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_URI} !=/favicon.ico
+# AddType video/ogg .ogv
+# AddType video/ogg .ogg
+# AddType video/mp4 .mp4
+# AddType video/webm .webm
+# AddType application/x-shockwave-flash swf
+##------------https-redirect-------------------
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*) https://%{HTTP_HOST}/$1
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L,R=301]
+##--------------bot----------------------------
+RewriteCond %{HTTP_USER_AGENT} MJ12bot
+RewriteRule .* - [F]
+RewriteCond %{HTTP_USER_AGENT} 80legs [NC]
+RewriteRule ^ - [F]
+##--------------svg-support--------------------
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+AddType text/x-component .htc
+DirectoryIndex index.php
+##-------------php-session---------------------
+<IfModule mod_php5.c> 
+php_value memory_limit 512M 
+php_value max_execution_time 18000 
+php_flag magic_quotes_gpc off 
+php_flag session.auto_start off 
+php_flag suhosin.session.cryptua off 
+php_flag zend.ze1_compatibility_mode Off 
+</IfModule>
+##### mod_deflate compresses your output to lower the file size being sent to the client #####
+# ##--------------------gzip--------------------------- 
+# <IfModule mod_deflate.c>
+#  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+#  BrowserMatch ^Mozilla/4 gzip-only-text/html
+#  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+#  SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+#  Header append Vary User-Agent env=!dont-vary
+#  php_flag zlib.output_compression on
+# </IfModule>
+# <Files *.php>
+#  SetOutputFilter DEFLATE 
+# </Files>
+# <IfModule mod_ssl.c>
+#  SSLOptions StdEnvVars 
+# </IfModule>
+# ##### Header Directives #####
+<ifModule mod_headers.c>
+Header unset ETag
+Header unset Last-Modified
+</ifModule>
+# ##### disable POST processing to prevent breaking image upload #####
+<IfModule mod_security.c> 
+SecFilterEngine Off 
+SecFilterScanPOST Off
+</IfModule> 
+# ##### Served files compression on Apache for improved site speed #####
+# <IfModule mod_deflate.c>
+#  AddOutputFilterByType DEFLATE text/plain
+#  AddOutputFilterByType DEFLATE text/html
+#  AddOutputFilterByType DEFLATE text/xml
+#  AddOutputFilterByType DEFLATE text/css
+#  AddOutputFilterByType DEFLATE application/xml
+#  AddOutputFilterByType DEFLATE application/xhtml+xml
+#  AddOutputFilterByType DEFLATE application/rss+xml
+#  AddOutputFilterByType DEFLATE application/javascript
+#  AddOutputFilterByType DEFLATE application/x-javascript
+#  BrowserMatch ^Mozilla/4 gzip-only-text/html
+#  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+#  SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+#  Header append Vary User-Agent env=!dont-vary
+# </IfModule>
+# ##### Improve site speed through Mod gzip and caching #####
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.* 
+</ifModule>
+# ##### Default expires headers for all file types  #####
+# ##### Not recommended for development environment #####
+# <ifModule mod_expires.c>
+#  ExpiresActive On
+#  ExpiresDefault "access plus 1 seconds"
+#  ExpiresByType text/html "access plus 1 seconds"
+#  ExpiresByType image/gif "access plus 2592000 seconds"
+#  ExpiresByType image/jpeg "access plus 2592000 seconds"
+#  ExpiresByType image/png "access plus 2592000 seconds"
+#  ExpiresByType text/css "access plus 604800 seconds"
+#  ExpiresByType text/javascript "access plus 216000 seconds"
+#  ExpiresByType application/x-javascript "access plus 216000 seconds"
+# </ifModule> 
+# ##### Mime Type Caching Magento #####
+# <IfModule mod_mime.c>
+#  ##### AUDIO #####
+#     AddType audio/mp4 m4a f4a f4b
+#     AddType audio/ogg oga ogg
+#    ##### JAVASCRIPT #####
+#     # Normalize to standard type (it's sniffed in IE anyways):
+#     # http://tools.ietf.org/html/rfc4329#section-7.2
+#     AddType application/javascript js jsonp
+#     AddType application/json json
+#    ##### VIDEO #####
+#     AddType video/mp4                                   mp4 m4v f4v f4p
+#     AddType video/ogg                                   ogv
+#     AddType video/webm                                  webm
+#     AddType video/x-flv                                 flv
+#    ##### WEB FONTS #####
+#     AddType application/font-woff                       woff
+#     AddType application/vnd.ms-fontobject               eot
+#     ##### Browsers usually ignore the font MIME types #####
+#     ##### and sniff the content, however, Chrome shows #####
+#     ##### a warning if other MIME types are used for #####
+#  ##### the following fonts. #####
+#     AddType application/x-font-ttf                      ttc ttf
+#     AddType font/opentype                               otf
+#    ##### OTHER #####
+#     AddType application/octet-stream                    safariextz
+#     AddType application/x-chrome-extension              crx
+#     AddType application/x-opera-extension               oex
+#     AddType application/x-shockwave-flash               swf
+#     AddType application/x-web-app-manifest+json         webapp
+#     AddType application/x-xpinstall                     xpi
+#     AddType application/xml                             atom rdf rss xml
+#     AddType image/webp                                  webp
+#     AddType image/x-icon                                ico
+#     AddType text/cache-manifest                         appcache manifest
+#     AddType text/vtt                                    vtt
+#     AddType text/x-component                            htc
+#     AddType text/x-vcard                                vcf
+# </IfModule>
+<IfModule mod_mime.c>
+AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>
+##### Disable ETags http://developer.yahoo.com/performance/rules.html#etags #####
+FileETag None
+##### Prevent character encoding issues from server overrides #####
+#AddDefaultCharset Off
+AddDefaultCharset UTF-8
+
+

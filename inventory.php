@@ -1,14 +1,13 @@
 <?php
 include("lib/SqlFunction.php");
-Priv(["all"]);
+/* Priv(["all"]); */
 ?>
 <!DOCTYPE HTML>
 <html>
     <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Time series</title>
-	<?php
-	include("lib/Intestazioni.php");
+	<?php include("lib/Intestazioni.php");
 	WrHeader(); 
 	?>
     </head>

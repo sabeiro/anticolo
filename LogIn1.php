@@ -44,7 +44,7 @@ include("lib/SqlFunction.php");
 		<input name="submit" type="submit" value="Login">
 	    </form>
 	    <?php
-	    include("lib/config.inc.php");
+	    include("lib/conf/config.inc.php");
 	    include("lib/AdminFuncSql.php");
 	    if(isset($_POST['submit']) && (trim($_POST['submit']) == "Login")){
 		if( !isset($_POST['username']) || $_POST['username']=="" ){
