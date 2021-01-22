@@ -1,6 +1,6 @@
 <?php
 include("lib/SqlFunction.php");
-Priv(['marketing','all']);
+Priv(['all']);
 ?>
 <!doctype html>
 <html>
@@ -10,7 +10,6 @@ Priv(['marketing','all']);
         <title>Vieawability</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/main.css">
 	<?php
 	include("lib/Intestazioni.php");
 	WrHeader(); 
@@ -57,9 +56,9 @@ Priv(['marketing','all']);
                     <option value="data/heatmap_demo.json" >Ottobre</option>
                 </select>
             </div>
-             <div id="dwnFile" class="files controls">
-               <span>tabelle:</span>
-	       <a href="data/csv/heatmapViewGennaio.csv">completa</a>
+            <div id="dwnFile" class="files controls">
+		<span>tabelle:</span>
+		<a href="data/csv/heatmapViewGennaio.csv">completa</a>
             </div>
             <div class="units">
                 <span>Unit:</span>
@@ -78,15 +77,15 @@ Priv(['marketing','all']);
         <script src="plugins/legacy/js/underscore-min.js"></script>
         <script src="/lib/dash/js/d3/heatmapTree.js"></script>
  	<script tyep="text/javascript">
-	  var e = {"options":[{"value":"data/heatmap_demo.json"}],selectedIndex:0};
-	  set_changed(e);
+	 var e = {"options":[{"value":"data/heatmap_demo.json"}],selectedIndex:0};
+	 set_changed(e);
 	</script>
 	<!-- <script src="js/d3.slider.js"></script> -->
  	<script tyep="text/javascript">
-	  //d3.select('#slider3').call(d3.slider().on("slide", function(evt, value) {
-	  //d3.select('#slider3text').text(d3.round(value,0));}));
-	  //var slider = d3.slider();
-	  //d3.select('#slider').call(slider);
+	 //d3.select('#slider3').call(d3.slider().on("slide", function(evt, value) {
+	 //d3.select('#slider3text').text(d3.round(value,0));}));
+	 //var slider = d3.slider();
+	 //d3.select('#slider').call(slider);
 	</script>
     </body>
 </html>

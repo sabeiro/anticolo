@@ -14,13 +14,8 @@ import albio.series_stat as s_s
 import importlib
 
 cred = json.load(open(baseDir + "credenza/anticolo.json"))['db_con']
-from sqlalchemy import create_engine
-import pymysql
 
 dashD = json.load(open(baseDir + "anticolo/data/cust/dash_sky.json"))
-engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
-                       .format(host=cred['host'],db=cred['db'],user=cred['user'],pw=cred['pass']))
-
 weatL = pd.read_csv(baseDir + "../siti/assessment/weather/raw/weather_h.csv.gz")
 vis = np.mean(weatL['visibility'])
 weatL.loc[:,"visible"] = (weatL['visibility']>vis+vis*.01) | (weatL['visibility']<vis-vis*.01)
@@ -32,12 +27,12 @@ weatL[tL].boxplot()
 plt.xticks(rotation=15)
 plt.show()
 weatD = weatL.groupby("day").agg(np.nanmean).reset_index()
-weatD.loc[:,"dt"] = weatD['day'].apply(lambda x: datetime.datetime.strptime(x,"%Y-%m-%d"))
+weatD.loc[:,"time"] = weatD['day'].apply(lambda x: datetime.datetime.strptime(x,"%Y-%m-%d"))
 weatD.loc[:,"time"] = weatD['time'].apply(lambda x: int(x))
 weatD.index = weatD['day']
 weatD.drop(columns={"day"},inplace=True)
-weatD.loc[:,"month"] = weatD['dt'].apply(lambda x: x.strftime('%Y-%m'))
-weatD.loc[:,"week"]  = weatD['dt'].apply(lambda x: str(x.isocalendar()[0]) + "-" + "%02d" % x.isocalendar()[1])
+weatD.loc[:,"month"] = weatD['time'].apply(lambda x: x.strftime('%Y-%m'))
+weatD.loc[:,"week"]  = weatD['time'].apply(lambda x: str(x.isocalendar()[0]) + "-" + "%02d" % x.isocalendar()[1])
 weatW = weatD.groupby("week").agg(np.nanmean)
 weatW.loc[:,"time"] = weatW['time'].apply(lambda x: int(x))
 weatW.loc[:,'day'] = weatW['time'].apply(lambda x: datetime.datetime.fromtimestamp(x).date().strftime('%Y-%m-%d'))
@@ -45,7 +40,19 @@ weatM = weatD.groupby("month").agg(np.nanmean)
 weatM.loc[:,"time"] = weatM['time'].apply(lambda x: int(x))
 weatM.loc[:,'day'] = weatM['time'].apply(lambda x: datetime.datetime.fromtimestamp(x).date().strftime('%Y-%m-%d'))
 
+sL = ['id_poi', 'hour', 'visible']
+weatL.drop(columns=sL,inplace=True)
+weatD.drop(columns=sL,inplace=True)
+weatW.drop(columns=sL,inplace=True)
+weatM.drop(columns=sL,inplace=True)
+
+
 from sqlalchemy.types import VARCHAR
+from sqlalchemy import create_engine
+import pymysql
+engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
+                       .format(host=cred['host'],db=cred['db'],user=cred['user'],pw=cred['pass']))
+
 frame = weatL.loc[:1000,].to_sql("weather_h",engine,if_exists='replace',index=False);
 maxL = weatD.index.get_level_values('day').str.len().max()
 frame = weatD.to_sql("weather_d",engine,if_exists='replace',dtype={'day': VARCHAR(maxL)});

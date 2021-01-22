@@ -1,0 +1,270 @@
+/*--------------------------------elements-----------------------------------*/
+body {
+    background-color: #fff;
+    font-family:Lato, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.wrapper div {
+    /* margin: 35px 0; */
+}
+.wrapper {
+    /* width: 800px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+#controls {
+    width:90%;
+    height:12px;
+    margin:20px 0px 0px 20px;
+    font-family:helvetica,arial,verdana;
+    font-size:12pt;
+    display: inline-flex;
+    transition: opacity 0.3s;
+    text-shadow:1px 1px 0px gray;
+}
+#slider3 {
+    width: 200px;
+}
+.controls {
+    float:left;
+    margin:0px 0px 0px 20px;
+}
+div.fixed {
+    position:fixed;
+}
+svg {
+    overflow:visible;
+}
+button{
+    display:block;
+    margin: 0 auto 20px;
+    padding: 0.5em;
+    box-shadow: 0 0 2px 2px navy;
+}
+.menuI{
+    float:right;
+    width:70%;
+    position:fixed;
+    z-index:10;
+}
+.menuIt{
+    display:inline-block;
+    padding:10px 10px;
+}
+/*--------------------------------text---------------------------------------*/
+h2 {
+    font-size: 1.2em;
+    margin: 60px 0 5px 0;
+}
+a {
+    color: #44aaff;
+    text-shadow: 0 0 10px rgba(51, 153, 255, 0.5);
+}
+h1{
+    text-align:center;
+
+}
+p, dl {
+    margin: 0.5em 1.5em;
+}
+dt {
+    font-weight:bold;
+    display:run-in;
+    padding-right:1em;
+}
+/*-------------------------------charts--------------------------------------*/
+#chart {
+    width:95%;
+    height:800px;
+    border:1px solid #aaa;
+    border-radius: 5px;
+    margin:30px auto auto auto;
+    background-color: #fff;
+    padding:4px 10px;
+}
+#chart text {
+    font-family:helvetica,arial,verdana;
+}
+.tooltip {
+    /* pointer-events:none; /\*let mouse events pass through*\/ */
+    /* opacity:0; */
+    font-size:8pt;
+    transition: opacity 0.3s;
+    text-shadow:1px 1px 0px gray;
+    text-align:right;
+    background:black;
+    padding:20 20 20 20;
+    fill:#000000;
+    overflow:hidden;
+    width:80px;
+}
+.tooltip_rect {
+    background:black;
+    opacity:1;
+}
+/*----------------------------------table--------------------------------*/
+th {
+    background-color: #4CAF50;
+    box-shadow: 5px 10px 5px #888888;
+    text-shadow: 0 0 10px rgba(51, 153, 255, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px 8px;
+    border-bottom: 2px solid #6678b1;
+    /* position:fixed; */
+    /* display:inline; */
+}
+td {
+    background-color: #ffffff;
+    color: black;
+    padding: 9px 8px 0px 8px;
+}
+tr:hover td:hover{ 
+    background-color: #632a2a;
+    color: #fff;
+}
+.downLink{
+    display:inline-block;
+    vertical-align:top;
+}
+table{
+    margin:auto auto auto auto;
+    overflow-x:auto;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    background: #fff;
+    /* margin: 45px; */
+    /* text-align: left; */
+    width: 480px;
+    /* position:relative; */
+    /* table-layout: fixed; */
+}
+.tableIt{
+    margin:auto auto auto auto;
+    left:5%;
+    right:5%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    max-height:300px;
+    height:300px;
+    width:90%;
+    border:2px;
+    border-color:#000000;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    display:inline-block;
+    
+}
+tbody {
+    /* display: block; */
+}
+
+thead {
+    /* display: block; */
+    /* position: absolute; */
+    /* display:inline; */
+}
+
+
+/*----------------------------------d3----------------------------------*/
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+.d3-slider {
+    position: relative;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    border: 1px solid #aaaaaa;
+    z-index: 2;
+}
+.d3-slider-horizontal {
+    height: .8em;
+}
+
+.d3-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+
+.d3-slider-handle {
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    background: #eee;
+    background: linear-gradient(to bottom, #eee 0%, #ddd 100%);
+    z-index: 3;
+}
+
+.d3-slider-handle:hover {
+    border: 1px solid #999999;
+}
+
+.d3-slider-horizontal .d3-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+
+.d3-slider-axis {
+    position: relative;
+    z-index: 1;
+}
+
+.d3-slider-axis-bottom {
+    top: .8em;
+}
+
+.d3-slider-axis-right {
+    left: .8em;
+}
+
+.d3-slider-axis path {
+    stroke-width: 0;
+    fill: none;
+}
+
+.d3-slider-axis line {
+    fill: none;
+    stroke: #aaa;
+    shape-rendering: crispEdges;
+}
+
+.d3-slider-axis text {
+    font-size: 11px;
+}
+
+.d3-slider-vertical .d3-slider-handle {
+    left: -.25em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}

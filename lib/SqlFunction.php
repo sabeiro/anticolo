@@ -11,6 +11,9 @@ function encGrp($grpS){
     return crypt((string)$grpS,base64_encode((string)$grpS));
 }
 function Priv($grpA){
+    if(sizeof($grpA)>0){
+	if($grpA[0] == 'all'){return 0;}
+    }
     $inactive = 600;
     $cookStr = '';
     if(isset($_COOKIE['ref_page'])){$_SESSION['ref_page'] = $_SERVER['REQUEST_URI'];
@@ -85,7 +88,7 @@ function formatHighcharts($rows){
     }
     return $rowF;
 }
-function WrGraphDb($dbConn,$col,$tab,$name){
+function wrGraphDb($dbConn,$col,$tab,$name){
     $query = 'select ' . $col . ' from ' . $tab . ';';
     $rows = $dbConn->DbRow($query);
     $rowF = formatHighcharts($rows);
@@ -119,7 +122,11 @@ function WrColName($dbConn,$tabN){
     $rows = $dbConn->DbRow($query);
     return $rows;
 }
-
+function WrColDouble($dbConn,$tabN){
+    $query = " SELECT column_name FROM information_schema.columns A where table_name = '".$tabN."' and data_type in ('double','bigint');";
+    $rows = $dbConn->DbArray($query);
+    return $rows;
+}
 function wrMarker($dbConn){
     $query = 'select date as x,title,text from inventory_marker order by date;';
     $rows = $dbConn->DbRow($query);

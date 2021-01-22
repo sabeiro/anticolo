@@ -23,7 +23,7 @@
 		<img src="fig/dash_cover.png">
 		<p><a href="http://dauvi.org/portfolio" target="_blank">G. Marelli</a> @ <a href="http://dauvi.org" target="_blank">dauvi</a></p>
 	    </section>
-	    <section id="outline"><h2>Outline</h2><ol><li>architecture</li><li>UI</li><li>features</li></ol></section>
+	    <section id="outline"><h2>Outline</h2><ol><li>architecture</li><li>user interface</li><li>features</li></ol></section>
 	    <section><!-- measurements -->
 		<section id="arch"><h2>architecture</h2></section>
 		<section id="arch1" data-math><h3>old style infra</h3>
@@ -68,7 +68,7 @@
 		</section>
 	    </section><!-- measurements -->
 	    <section><!-- pretargeting -->
-		<section id="ui"><h2>UI</h2></section>
+		<section id="ui"><h2>user interface</h2></section>
 		<section id="ui1" data-math><h3>template</h3>
 		    <a href="https://adminlte.io/themes/dev/AdminLTE/index.html"> <img src="fig/dash_template.png"> </a>
 		    <h5>template admin lte</h5>

@@ -76,6 +76,15 @@ class AdminSql{
 	$result->free();
 	return $rows;
     }    
+    public function DbArray($query){
+	$result = $this->db->query($query);
+	$rows = array();
+	while($row = $result->fetch_array(MYSQLI_NUM)){//MYSQLI_ASSOC,MYSQLI_BOTH
+            array_push($rows,$row[0]);
+	}
+	$result->free();
+	return $rows;
+    }    
     // funzione per la creazione di anteprime dei testi
     public function DbPreview($post, $offset, $collegamento) {
 	return (count($anteprima = explode(" ", $post)) > $offset) ? implode(" ", array_slice($anteprima, 0, $offset)) . $collegamento : $post;

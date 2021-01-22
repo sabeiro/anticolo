@@ -96,41 +96,41 @@ Priv(['all']);
 		<?php WrTop(); ?>
 		<div class="container">
 		    <div class="row span1">
-			<h1>Storico prezzi per cliente</h1>
+			<h1>Historical price list</h1>
 		    </div>
 		    <div class="row">
 			<div class="clientForm1 col-md-4">
-			    <p>Mediamond 2016:</p>
+			    <p>provider 1:</p>
 			    <div style="position: relative; height: 80px;">
 				<input type="text" name="country" id="autocomplete-ajax" style="position: absolute; z-index: 2; background: transparent;"/>
 				<input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;"/>
 			    </div>
 			    <div id="selction-ajax"></div>
-			    <p> <b>storico mediamond</b></p>
+			    <p> <b>price list 1</b></p>
 			    <div class="chart">
 			    </div>
 
 			</div>
 			<div class="clientForm2 col-md-4">
-			    <p>Banzai 2016/2015:</p>
+			    <p>provider 2:</p>
 			    <div style="position: relative; height: 80px;">
 				<input type="text" name="country" id="autocomplete-ajax1" style="position: absolute; z-index: 2; background: transparent;"/>
 				<input type="text" name="country" id="autocomplete-ajax-x1" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;"/>
 			    </div>
 			    <div id="selction-ajax1"></div>
-			    <p> <b>storico banzai</b></p>
+			    <p> <b>price list 2</b></p>
 			    <div class="chart1">
 			    </div>
 
 			</div>
 			<div class="clientForm3  col-md-4">
-			    <p>Brightroll 2016:</p>
+			    <p>provider 3:</p>
 			    <div style="position: relative; height: 80px;">
 				<input type="text" name="country" id="autocomplete-ajax2" style="position: absolute; z-index: 2; background: transparent;"/>
 				<input type="text" name="country" id="autocomplete-ajax-x2" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;"/>
 			    </div>
 			    <div id="selction-ajax2"></div>
-			    <p> <b>storico brightroll</b></p>
+			    <p> <b>price list 3</b></p>
 			    <div class="chart1">
 			    </div>
 
@@ -139,17 +139,12 @@ Priv(['all']);
 		</div>
 	    </div>
 	    <?php WrFooter(); ?>
-
-    
-
-    
     <!-- <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script> -->
-    
-    <script type="text/javascript" src="js/autocomplete/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="js/autocomplete/jquery.mockjax.js"></script>
-    <script type="text/javascript" src="js/autocomplete/jquery.autocomplete.js"></script>
-    <script type="text/javascript" src="js/autocomplete/countries.js"></script>
-    <script type="text/javascript" src="js/autocomplete/demo.js"></script>
+    <script type="text/javascript" src="plugins/autocomplete/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="plugins/autocomplete/jquery.mockjax.js"></script>
+    <script type="text/javascript" src="plugins/autocomplete/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="plugins/autocomplete/countries.js"></script>
+    <script type="text/javascript" src="plugins/autocomplete/demo.js"></script>
     <script src="//d3js.org/d3.v3.min.js"></script>
     <script>
      var cpmL = [{"format":"Halfpage","cpm":5.48}

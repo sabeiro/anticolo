@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="plugins/adminLte/css/adminlte.min.css">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="lib/dash/css/main.css">
 <?php }?>
 
 <?php function WrTop(){?>
@@ -186,15 +188,26 @@
 		    <!-- Default box -->
 		    <div class="card">
 			<div class="card-header">
+			    <h5 id="itTitle" class="card-title">Monthly Recap Report</h5>
 			    <div class="card-tools">
 				<button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 				    <i class="fas fa-minus"></i></button>
+				<div class="btn-group">
+				    <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+					<i class="fas fa-wrench"></i>
+				    </button>
+				    <div class="dropdown-menu dropdown-menu-right" role="menu">
+					<a href="#" class="dropdown-item">change</a>
+				    </div>
+				</div>
 				<button type="button" class="btn btn-tool" data-card-widget="remove" data-toggle="tooltip" title="Remove">
 				    <i class="fas fa-times"></i></button>
 			    </div>
-			    <div id="dashTab" ></div>
 			</div>
 			<div class="card-body">
+			    <div class="row">
+				<div id="dashTab" ></div>
+			    </div>
 			    <div class="row">
 				<section class="col-lg-7 connectedSortable">
 				    <div id="itChart"></div>
@@ -244,8 +257,7 @@
 	<div class="float-right d-none d-sm-block">
 	    <b>Version</b> 3.0.5
 	</div>
-	<strong>Copyright © 2014-2019 <a href="http://adminlte.io/">AdminLTE.io</a>.</strong> All rights
-	reserved.
+	<strong>Anticolo@<a href="https://dauvi.org">dauvi</a> theme: <a href="http://adminlte.io/">AdminLTE.io</a>.</strong>
     </footer>
     <!-- jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>

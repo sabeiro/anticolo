@@ -4,15 +4,20 @@
     "Sector": "NlLh",
     "Market": {"DE":1,"US":1,"UK":1,"IT":100,"FR":1,"ES":1,"CN":1,"RU":1,"PL":1,"AT":1,"CH":1,"JP":1,"IN":1,"CA":1,"SE":1,"NL":1,"NO":1,"FI":1,"DK":1},
     "Parameter":[
-	{"name":"inventory","val":"34 M","ref":"adserver","ico":"ion-bag","link":"inventory_section.php"}
-	,{"name":"KPI 1","val":"65%","ref":"institute I","ico":"ion-stats-bars","link":"viewability.php"}
-	,{"name":"price/client","val":"34","ref":"ERP","ico":"ion-person-add","link":"prezzario.php"}
+	{"name":"time series hour","val":"12k hours","ref":"weather data","ico":"ion-bag","link":"timeSer.php?type=spline&tab=weather_h"}
+	,{"name":"time series day","val":"500 days","ref":"weather data","ico":"ion-bag","link":"timeSer.php?type=line&tab=weather_d"}
+	,{"name":"time series week","val":"73 weeks","ref":"weather data","ico":"ion-bag","link":"timeSer.php?type=areaspline&tab=weather_w"}
+	,{"name":"time series month","val":"17 months","ref":"weather data","ico":"ion-bag","link":"timeSer.php?type=column&tab=weather_m"}
+	,{"name":"KPI 1","val":"65%","ref":"institute I","ico":"ion-stats-bars","link":"heatmap.php"}
+	,{"name":"price/client","val":"34","ref":"ERP","ico":"ion-person-add","link":"network.php"}
 	,{"name":"rules","val":"5k5 url","ref":"ComScore","ico":"ion-pie-graph","link":"sunburst.php"}
 	,{"name":"postvaluation","val":"9","ref":"institute II","ico":"ion-pie-graph","link":"fig/inTargetHeatBench.svg"}
 	,{"name":"sale ev","val":"3%","ref":"ERP","ico":"ion-pie-graph","link":"fig/audienceUsage.svg"}
 	,{"name":"product catalog","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"fig/audComp.svg"}
-	,{"name":"client notebook","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"price.php"}
+	,{"name":"price list","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"price.php"}
 	,{"name":"company structure","val":"213","ref":"persone","ico":"ion-stats-bars","link":"circle_pack.php"}
+	,{"name":"tabular data","val":150,"ref":"ERP","ico":"ion-pie-graph","link":"table.php"}
+	,{"name":"treebox","val":"213","ref":"persone","ico":"ion-stats-bars","link":"treebox.php"}
     ]
     ,"MorrisArea":{
 	"element":"revenue-chart"
